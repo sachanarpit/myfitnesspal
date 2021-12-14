@@ -1,5 +1,6 @@
 import img from "./Utils/Hero.png";
 import styles from "./Hero.module.css";
+import se from "./Utils/Sbar.png";
 function Hero() {
   return (
     <div className={styles.main}>
@@ -13,6 +14,9 @@ function Hero() {
         <div className={styles.al}>Already have an account ?</div>
 
         <div className={styles.login}>Login</div>
+      </div>
+      <div className={styles.search}>
+        <img src={se} alt="dc" />
       </div>
       <img src={img} alt="njh" className={styles.img} />
     </div>

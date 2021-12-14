@@ -90,3 +90,12 @@
   cursor: pointer;
   line-height: 2.788339670468948vh;
 }
+.search {
+  position: absolute;
+  left: 50%;
+  bottom: 130px;
+  margin-left: -31.805555555555557vw;
+  width: 63.611111111111114vw;
+  height: 9.632446134347274vh;
+  /* outline: purple solid; */
+}
