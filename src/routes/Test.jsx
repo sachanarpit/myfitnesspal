@@ -7,7 +7,9 @@ import {
   SignUpNextButton,
   SignUpContinueButton,
   GoalBtnSignUp,
-} from "../components/SignUp-Forms/GlobalComp/SignUp.Pages.Button";
+} from "../components/GlobalComp/SignUp.Pages.Button";
+
+import { Heading6 } from "../components/GlobalComp/Heading.Pages.Signup";
 
 export const Test = () => {
   return (
@@ -21,7 +23,7 @@ export const Test = () => {
       <br />
       <br />
       <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
-
+      <Heading6>Heading 6</Heading6>
       {/* <NavbarWithoutLogin/>
       <Hero/>
       <Footer/> */}
