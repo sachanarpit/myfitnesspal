@@ -26,13 +26,51 @@
     -->
 
     <!-- fontfamily -->
-    <link
+    <!-- <link
       rel="preload"
-      href="%PUBLIC_URL%/NeuePlakText-Light.woff2"
+      href="%PUBLIC_URL%/font/NeuePlakText-Light.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
+    <link
+      rel="preload"
+      href="%PUBLIC_URL%/font/NeuePlakText-BlackItalic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="%PUBLIC_URL%/font/NeuePlakText-SemiBold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    /> -->
+
+    <style>
+      @font-face {
+        font-family: "NeueL";
+        src: url(%PUBLIC_URL%/font/NeuePlakText-Light.ttf);
+      }
+      @font-face {
+        font-family: "NeueT";
+        src: url(%PUBLIC_URL%/font/NeuePlakText-Thin.ttf);
+      }
+
+      @font-face {
+        font-family: "NeueSB";
+        src: url(%PUBLIC_URL%/font/NeuePlakText-SemiBold.ttf);
+      }
+      @font-face {
+        font-family: "NeueB";
+        src: url(%PUBLIC_URL%/font/NeuePlakText-Bold.ttf);
+      }
+      @font-face {
+        font-family: "NeueEB";
+        src: url(%PUBLIC_URL%/font/NeuePlakText-Black.ttf);
+      }
+    </style>
 
     <title>MyFinessPal</title>
   </head>
