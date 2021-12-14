@@ -54,5 +54,15 @@ export const SubTitle2 = styled.p`
   color: #363636;
 `;
 
-export const Body1 = styled.p``;
-export const Body2 = styled.p``;
+export const Body1 = styled.p`
+  font-family: "NeueSB";
+  font-weight: 600;
+  font-size: 1.171303074670571vw;
+  color: #363636;
+`;
+export const Body2 = styled.p`
+  font-family: "NeueL";
+  font-weight: normal;
+  font-size: 1.0248901903367496vw;
+  color: rgba(34, 38, 40, 0.8);
+`;
