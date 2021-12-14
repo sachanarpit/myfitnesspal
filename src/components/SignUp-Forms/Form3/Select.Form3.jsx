@@ -1,3 +1,5 @@
+import "./style.css";
+
 import styled from "styled-components";
 import { Body1, Body2 } from "../../GlobalComp/Heading.Pages.Signup";
 
@@ -9,6 +11,7 @@ const ParentSelectForm3 = styled.div`
 
 const ChildSelectForm3 = styled.div`
   margin-left: 1.3177159590043923vw;
+  margin-right: 0.6588579795021962vw;
 `;
 
 export const SelectForm3 = () => {
@@ -16,7 +19,9 @@ export const SelectForm3 = () => {
     <ParentSelectForm3>
       <ChildSelectForm3>
         <Body1>Not Very Active</Body1>
-        <Body2>Spend most of the day sitting(e.g hello , skjfds , kdsf)</Body2>
+        <Body2 id="para">
+          Spend most of the day sitting(e.g hello fdsfsa, skjfds , kdsf)
+        </Body2>
       </ChildSelectForm3>
     </ParentSelectForm3>
   );
