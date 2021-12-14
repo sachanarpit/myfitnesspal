@@ -22,3 +22,21 @@ export const Heading2 = styled.h2`
   color: #363636;
 `;
 
+export const Heading3 = styled.h3`
+  font-family: "NeueEB";
+  font-weight: 950;
+  font-size: 3.513909224011713vw;
+  color: #363636;
+`;
+export const Heading4 = styled.h2`
+  font-family: "NeueB";
+  font-weight: 950;
+  font-size: 3.513909224011713vw;
+  color: #363636;
+`;
+export const Heading5 = styled.h2`
+  font-family: "NeueB";
+  font-weight: 950;
+  font-size: 3.513909224011713vw;
+  color: #363636;
+`;
