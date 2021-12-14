@@ -57,16 +57,36 @@
   justify-content: center;
   cursor: pointer;
 }
-.al {
+.cont {
+  display: flex;
+  align-items: center;
   position: absolute;
+  width: 20.27777777777778vw;
+  height: 5.32319391634981vh;
+  left: 18%;
+  top: 480px;
+  /* outline: purple solid; */
+}
+.al {
   width: 13.2vw;
   height: 2.788339670468948vh;
   /* outline: hotpink solid; */
-  left: 18%;
-  top: 480px;
+  margin-right: 5px;
   font-size: 1.1111111111111112vw;
   font-family: "NeueSB";
   line-height: 2.788339670468948vh;
   font-weight: 560;
   vertical-align: center;
+}
+.login {
+  width: 2.5694444444444446vw;
+  height: 2.788339670468948vh;
+  /* outline: solid yellow; */
+  color: #0066ee;
+  font-family: "NeueSB";
+  font-size: 1.1111111111111112vw;
+  vertical-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 2.788339670468948vh;
 }
