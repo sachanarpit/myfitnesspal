@@ -40,3 +40,5 @@ export const Heading5 = styled.h5`
   font-size: 2.342606149341142vw;
   color: #363636;
 `;
+
+export const SubTitle1 = styled.p``;
