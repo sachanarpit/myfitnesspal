@@ -41,5 +41,15 @@ export const Heading5 = styled.h5`
   color: #363636;
 `;
 
-export const SubTitle1 = styled.p``;
-export const SubTitle2 = styled.p``;
+export const SubTitle1 = styled.p`
+  font-family: "NeueSB";
+  font-weight: 600;
+  font-size: 1.610541727672035vw;
+  color: #363636;
+`;
+export const SubTitle2 = styled.p`
+  font-family: "NeueSB";
+  font-weight: 600;
+  font-size: 1.4641288433382138vw;
+  color: #363636;
+`;
