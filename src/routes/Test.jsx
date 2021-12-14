@@ -7,7 +7,20 @@ import {
   SignUpNextButton,
   SignUpContinueButton,
   GoalBtnSignUp,
-} from "../components/SignUp-Forms/GlobalComp/SignUp.Pages.Button";
+} from "../components/GlobalComp/SignUp.Pages.Button";
+
+import {
+  Heading6,
+  Heading1,
+  Heading2,
+  Heading3,
+  Heading4,
+  Heading5,
+  SubTitle1,
+  SubTitle2,
+  Body2,
+  Body1,
+} from "../components/GlobalComp/Heading.Pages.Signup";
 
 export const Test = () => {
   return (
@@ -21,11 +34,19 @@ export const Test = () => {
       <br />
       <br />
       <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
-
-      <NavbarWithoutLogin/>
+      <Heading1>Heading 1</Heading1>
+      <Heading2>Heading 2</Heading2>
+      <Heading3>Heading 3</Heading3>
+      <Heading4>Heading 4</Heading4>
+      <Heading5>Heading 5</Heading5>
+      <Heading6>Heading 6</Heading6>
+      <SubTitle1>SubTitle1</SubTitle1>
+      <SubTitle2>SubTitle2</SubTitle2>
+      <Body1>Body1</Body1>
+      <Body2>Body2</Body2>
+      {/* <NavbarWithoutLogin/>
       <Hero/>
-      <Footer/>
-
+      <Footer/> */}
     </>
   );
 };
