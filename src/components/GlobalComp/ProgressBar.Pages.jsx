@@ -13,6 +13,48 @@ const ChildBar1 = styled.div`
   background: #0066ee;
   border-radius: 8px 0px 0px 0px;
 `;
+const ChildBar2 = styled.div`
+  width: 8.931185944363104vw;
+  height: 1.1444921316165952vh;
+  background: #0066ee;
+  border-radius: 8px 0px 0px 0px;
+`;
+const ChildBar3 = styled.div`
+  width: 13.396778916544656vw;
+  height: 1.1444921316165952vh;
+  background: #0066ee;
+  border-radius: 8px 0px 0px 0px;
+`;
+const ChildBar4 = styled.div`
+  width: 17.86237188872621vw;
+  height: 1.1444921316165952vh;
+  background: #0066ee;
+  border-radius: 8px 0px 0px 0px;
+`;
+const ChildBar5 = styled.div`
+  width: 22.32796486090776vw;
+  height: 1.1444921316165952vh;
+  background: #0066ee;
+  border-radius: 8px 0px 0px 0px;
+`;
+const ChildBar6 = styled.div`
+  width: 26.793557833089313vw;
+  height: 1.1444921316165952vh;
+  background: #0066ee;
+  border-radius: 8px 0px 0px 0px;
+`;
+const ChildBar7 = styled.div`
+  width: 31.259150805270863vw;
+  height: 1.1444921316165952vh;
+  background: #0066ee;
+  border-radius: 8px 0px 0px 0px;
+`;
+const ChildBar8 = styled.div`
+  width: 35.72474377745242vw;
+  height: 1.1444921316165952vh;
+  background: #0066ee;
+  border-radius: 8px 8px 0px 0px;
+`;
 
 export const ProgressBar1 = () => {
   return (
@@ -24,49 +66,49 @@ export const ProgressBar1 = () => {
 export const ProgressBar2 = () => {
   return (
     <ParentBar>
-      <ChildBar1></ChildBar1>
+      <ChildBar2></ChildBar2>
     </ParentBar>
   );
 };
 export const ProgressBar3 = () => {
   return (
     <ParentBar>
-      <ChildBar1></ChildBar1>
+      <ChildBar3></ChildBar3>
     </ParentBar>
   );
 };
 export const ProgressBar4 = () => {
   return (
     <ParentBar>
-      <ChildBar1></ChildBar1>
+      <ChildBar4></ChildBar4>
     </ParentBar>
   );
 };
 export const ProgressBar5 = () => {
   return (
     <ParentBar>
-      <ChildBar1></ChildBar1>
+      <ChildBar5></ChildBar5>
     </ParentBar>
   );
 };
 export const ProgressBar6 = () => {
   return (
     <ParentBar>
-      <ChildBar1></ChildBar1>
+      <ChildBar6></ChildBar6>
     </ParentBar>
   );
 };
 export const ProgressBar7 = () => {
   return (
     <ParentBar>
-      <ChildBar1></ChildBar1>
+      <ChildBar7></ChildBar7>
     </ParentBar>
   );
 };
 export const ProgressBar8 = () => {
   return (
     <ParentBar>
-      <ChildBar1></ChildBar1>
+      <ChildBar8></ChildBar8>
     </ParentBar>
   );
 };
