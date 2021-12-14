@@ -43,7 +43,7 @@ export const SignUpContinueButton = styled.button`
   background: rgba(0, 102, 238, 1);
   font-family: "NeueB";
   font-size: 1.3177159590043923vw;
-  width: 12.298682284040996vw;
+  width: 24.30453879941435vw;
   height: 6.437768240343348vh;
   color: #ffffff;
 
