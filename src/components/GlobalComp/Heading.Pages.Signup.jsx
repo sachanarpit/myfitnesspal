@@ -42,3 +42,4 @@ export const Heading5 = styled.h5`
 `;
 
 export const SubTitle1 = styled.p``;
+export const SubTitle2 = styled.p``;

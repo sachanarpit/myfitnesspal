@@ -16,6 +16,8 @@ import {
   Heading3,
   Heading4,
   Heading5,
+  SubTitle1,
+  SubTitle2,
 } from "../components/GlobalComp/Heading.Pages.Signup";
 
 export const Test = () => {
@@ -36,6 +38,8 @@ export const Test = () => {
       <Heading4>Heading 4</Heading4>
       <Heading5>Heading 5</Heading5>
       <Heading6>Heading 6</Heading6>
+      <SubTitle1>SubTitle1</SubTitle1>
+      <SubTitle2>SubTitle2</SubTitle2>
       {/* <NavbarWithoutLogin/>
       <Hero/>
       <Footer/> */}
