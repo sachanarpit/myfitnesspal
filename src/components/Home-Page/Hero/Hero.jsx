@@ -1,6 +1,6 @@
-import img from "./Utils/Hero.png";
+import img from "../Utils/Hero.png";
 import styles from "./Hero.module.css";
-import se from "./Utils/Sbar.png";
+import se from "../Utils/Sbar.png";
 function Hero() {
   return (
     <div className={styles.main}>
