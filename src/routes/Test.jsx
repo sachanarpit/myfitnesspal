@@ -36,7 +36,13 @@ import { SelectForm3 } from "../components/SignUp-Forms/Form3/Select.Form3";
 export const Test = () => {
   return (
     <>
-      <SelectForm3 />
+      <SelectForm3
+        heading={"hello my name is arpit"}
+        para={
+          "Child compo nentTo PassDownC h ild  componen tToPa ssDow nChild  componen tToPassDo "
+        }
+        status={true}
+      />
       <br />
       {/* <SignUpForm1 /> */}
       <SignUpBackButton>Back</SignUpBackButton>
@@ -63,7 +69,7 @@ export const Test = () => {
       <ProgressBar8 />
       <br />
       <br />
-      <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
+      <GoalBtnSignUp>hello</GoalBtnSignUp>
       <Heading1>Heading 1</Heading1>
       <Heading2>Heading 2</Heading2>
       <Heading3>Heading 3</Heading3>
