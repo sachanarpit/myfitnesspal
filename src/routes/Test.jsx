@@ -1,3 +1,4 @@
+import Footer from "../components/Home-Page/Footer/Footer";
 import NavbarWithoutLogin from "../components/Home-Page/Navbar_withoutlogin/Navbar_withoutlogin";
 import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
 
@@ -6,6 +7,7 @@ export const Test = () => {
     <>
       <SignUpForm1 />
       <NavbarWithoutLogin/>
+      <Footer/>
     </>
   );
 };

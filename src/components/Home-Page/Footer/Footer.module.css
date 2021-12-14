@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  width: 100vw;
+  height: 10.392902408111533vh;
+  background-color: rgba(34, 38, 40, 0.1);
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  width: 100%;
+  height: 30%;
+  outline: black solid thin;
+  margin-top: 1.2rem;
+  display: inline-block;
+}
+.year {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+  /* outline: black solid thin; */
+  font-weight: 400;
+  font-size: 0.8333333333333334vw;
+  line-height: 2.0278833967046896vh;
+}
