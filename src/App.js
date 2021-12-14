@@ -1,10 +1,11 @@
 import "./App.css";
-import Navbar from "./components/Home-Page/Navbar_withoutlogin/Navbar";
+import { Routes } from "./routes/Router";
+import { Test } from "./routes/Test";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Test />
     </div>
   );
 }
