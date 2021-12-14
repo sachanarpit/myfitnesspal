@@ -52,6 +52,21 @@
   font-family: "NeueSB";
   font-size: 1.1111111111111112vw;
   line-height: 2.788339670468948vh;
+  font-weight: 600;
   vertical-align: center;
   justify-content: center;
+  cursor: pointer;
+}
+.al {
+  position: absolute;
+  width: 13.2vw;
+  height: 2.788339670468948vh;
+  /* outline: hotpink solid; */
+  left: 18%;
+  top: 480px;
+  font-size: 1.1111111111111112vw;
+  font-family: "NeueSB";
+  line-height: 2.788339670468948vh;
+  font-weight: 560;
+  vertical-align: center;
 }

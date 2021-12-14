@@ -9,6 +9,8 @@ function Hero() {
         log activities with MyFitnessPal.
       </div>
       <div className={styles.button}>START FOR FREE</div>
+      <div className={styles.al}>Already have an account ?</div>
+      <div className={styles.login}></div>
       <img src={img} alt="njh" className={styles.img} />
     </div>
   );
