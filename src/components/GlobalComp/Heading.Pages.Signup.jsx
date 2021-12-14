@@ -53,3 +53,6 @@ export const SubTitle2 = styled.p`
   font-size: 1.4641288433382138vw;
   color: #363636;
 `;
+
+export const Body1 = styled.p``;
+export const Body2 = styled.p``;
