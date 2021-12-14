@@ -8,7 +8,7 @@ function Hero() {
         Take control of your goals. Track calories, break down ingredients, and
         log activities with MyFitnessPal.
       </div>
-      <div className={styles.button}></div>
+      <div className={styles.button}>START FOR FREE</div>
       <img src={img} alt="njh" className={styles.img} />
     </div>
   );

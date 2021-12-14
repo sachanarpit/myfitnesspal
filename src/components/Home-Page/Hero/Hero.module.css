@@ -37,3 +37,21 @@
   vertical-align: center;
   fill: #363636;
 }
+.button {
+  display: flex;
+  position: absolute;
+  width: 20.27777777777778vw;
+  height: 5.32319391634981vh;
+  /* outline: solid greenyellow; */
+  left: 17%;
+  top: 420px;
+  background-color: #0066ee;
+  border-radius: 5px;
+  padding: 12px;
+  color: #ffffff;
+  font-family: "NeueSB";
+  font-size: 1.1111111111111112vw;
+  line-height: 2.788339670468948vh;
+  vertical-align: center;
+  justify-content: center;
+}
