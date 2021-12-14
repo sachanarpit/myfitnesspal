@@ -21,6 +21,7 @@ import {
   Body2,
   Body1,
 } from "../components/GlobalComp/Heading.Pages.Signup";
+import { ProgressBar1 } from "../components/GlobalComp/ProgressBar.Pages";
 
 export const Test = () => {
   return (
@@ -31,6 +32,9 @@ export const Test = () => {
       <br />
       <br />
       <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+      <br />
+      <br />
+      <ProgressBar1 />
       <br />
       <br />
       <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
