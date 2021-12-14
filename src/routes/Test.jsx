@@ -9,7 +9,11 @@ import {
   GoalBtnSignUp,
 } from "../components/GlobalComp/SignUp.Pages.Button";
 
-import { Heading6 } from "../components/GlobalComp/Heading.Pages.Signup";
+import {
+  Heading6,
+  Heading1,
+  Heading2,
+} from "../components/GlobalComp/Heading.Pages.Signup";
 
 export const Test = () => {
   return (
@@ -23,6 +27,8 @@ export const Test = () => {
       <br />
       <br />
       <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
+      <Heading1>Heading 1</Heading1>
+      <Heading2>Heading 2</Heading2>
       <Heading6>Heading 6</Heading6>
       {/* <NavbarWithoutLogin/>
       <Hero/>
