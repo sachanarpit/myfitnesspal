@@ -36,7 +36,7 @@ import { SelectForm3 } from "../components/SignUp-Forms/Form3/Select.Form3";
 export const Test = () => {
   return (
     <>
-      <SelectForm3>hello</SelectForm3>
+      <SelectForm3 />
       <br />
       {/* <SignUpForm1 /> */}
       <SignUpBackButton>Back</SignUpBackButton>
