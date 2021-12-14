@@ -28,10 +28,10 @@ export const Heading3 = styled.h3`
   font-size: 3.513909224011713vw;
   color: #363636;
 `;
-export const Heading4 = styled.h2`
+export const Heading4 = styled.h4`
   font-family: "NeueB";
-  font-weight: 950;
-  font-size: 3.513909224011713vw;
+  font-weight: bold;
+  font-size: 2.9282576866764276vw;
   color: #363636;
 `;
 export const Heading5 = styled.h2`
