@@ -22,10 +22,9 @@ export const Test = () => {
       <br />
       <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
 
-      <NavbarWithoutLogin/>
+      {/* <NavbarWithoutLogin/>
       <Hero/>
-      <Footer/>
-
+      <Footer/> */}
     </>
   );
 };
