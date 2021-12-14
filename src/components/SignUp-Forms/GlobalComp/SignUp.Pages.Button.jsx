@@ -54,3 +54,23 @@ export const SignUpContinueButton = styled.button`
     color: white;
   }
 `;
+
+export const GoalBtnSignUp = styled.button`
+  border: 1px solid rgba(34, 38, 40, 0.4);
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #ffffff;
+  font-family: "NeueSB";
+  font-weight: 600;
+  font-size: 1.171303074670571vw;
+  width: 25.76866764275256vw;
+  height: 7.439198855507868vh;
+  color: rgba(34, 38, 40, 0.8);
+
+  transition: 0.15s ease-out;
+  &:focus {
+    background-color: white;
+    border: 1px solid #0066ee;
+    color: #0066ee;
+  }
+`;

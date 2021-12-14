@@ -3,6 +3,7 @@ import {
   SignUpBackButton,
   SignUpNextButton,
   SignUpContinueButton,
+  GoalBtnSignUp,
 } from "../components/SignUp-Forms/GlobalComp/SignUp.Pages.Button";
 
 export const Test = () => {
@@ -14,6 +15,9 @@ export const Test = () => {
       <br />
       <br />
       <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+      <br />
+      <br />
+      <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
     </>
   );
 };
