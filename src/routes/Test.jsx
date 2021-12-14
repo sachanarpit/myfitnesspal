@@ -31,11 +31,14 @@ import {
   ProgressBar7,
   ProgressBar8,
 } from "../components/GlobalComp/ProgressBar.Pages";
+import { SelectForm3 } from "../components/SignUp-Forms/Form3/Select.Form3";
 
 export const Test = () => {
   return (
     <>
-      <SignUpForm1 />
+      <SelectForm3>hello</SelectForm3>
+      <br />
+      {/* <SignUpForm1 /> */}
       <SignUpBackButton>Back</SignUpBackButton>
       <SignUpNextButton>Next</SignUpNextButton>
       <br />
@@ -58,7 +61,6 @@ export const Test = () => {
       <ProgressBar7 />
       <br />
       <ProgressBar8 />
-
       <br />
       <br />
       <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
