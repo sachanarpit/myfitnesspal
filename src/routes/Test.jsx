@@ -32,10 +32,19 @@ import {
   ProgressBar8,
 } from "../components/GlobalComp/ProgressBar.Pages";
 import { SelectForm3 } from "../components/SignUp-Forms/Form3/Select.Form3";
+import {
+  RadioBtn,
+  WeightInput,
+} from "../components/GlobalComp/Input.Pages.SignUp";
 
 export const Test = () => {
   return (
     <>
+      <RadioBtn />
+      <br />
+      <WeightInput />
+      <br />
+      <br />
       <SelectForm3
         heading={"hello my name is arpit"}
         para={
