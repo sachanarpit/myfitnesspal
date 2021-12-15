@@ -15,6 +15,9 @@ function Hero() {
 
         <div className={styles.login}>Login</div>
       </div>
+      <div className={styles.above_search1}>
+        Search over 11 million foods in our database.
+      </div>
       <div className={styles.search}>
         <img src={se} alt="dc" />
       </div>
