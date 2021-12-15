@@ -1,15 +1,16 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
+import { SignUpForm1 } from "../components/SignUp-Forms/Form1";
 
 export const Routes = () => {
   return (
     <>
       <Switch>
         <Route exact path="/">
-          <h1>Home</h1>
+          <Link to="/signup">SignUp 1</Link>
         </Route>
 
-        <Route exact path="/products">
-          <h1>product page</h1>
+        <Route exact path="/signup">
+          <SignUpForm1 />
         </Route>
 
         <Route path="/products/:id">"new product"</Route>
