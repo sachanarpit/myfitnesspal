@@ -107,7 +107,7 @@
   /* outline: solid yellow; */
   left: 50%;
   margin-left: -20.27777777777778vw;
-  bottom: 270px;
+  bottom: 300px;
   font-weight: 950;
   font-size: 3.3333333333333335vw;
   line-height: 6.083650190114068vh;
@@ -123,11 +123,17 @@
 .above_search2 {
   box-sizing: border-box;
   position: absolute;
-  width: 40.55555555555556vw;
+  width: 34.72222222222222vw;
   height: 5.576679340937896vh;
-  outline: solid tomato;
+  /* outline: solid tomato; */
   left: 50%;
-  margin-left: -20.27777777777778vw;
-  bottom: 200px;
+  margin-left: -17.36111111111111vw;
+  bottom: 220px;
   font-size: 1.1111111111111112vw;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueSB";
+  vertical-align: center;
+  text-align: center;
+  line-height: 2.788339670468948vh;
+  font-weight: 600;
 }
