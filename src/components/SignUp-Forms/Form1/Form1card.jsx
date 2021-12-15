@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import { Heading6 } from "../../GlobalComp/Heading.Pages.Signup";
 import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form1.module.css";
 
-export const Form1card = () => {
+export const Form1card = ({ next }) => {
   return (
     <>
       <div className={styles.card1main}>
@@ -13,7 +14,9 @@ export const Form1card = () => {
           </Heading6>
         </div>
         <div className={styles.butt}>
-          <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+          <Link to={next}>
+            <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+          </Link>
         </div>
       </div>
     </>

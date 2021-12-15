@@ -14,19 +14,19 @@ export const Routes = () => {
         </Route>
 
         <Route exact path="/signup-1">
-          <SignUpForm1 />
+          <SignUpForm1 next={"/signup-2"} />
         </Route>
         <Route exact path="/signup-2">
-          <SignUpForm2 />
+          <SignUpForm2 next={"/signup-3"} prev={"/signup-2"} />
         </Route>
         <Route exact path="/signup-3">
-          <SignUpForm3 />
+          <SignUpForm3 next={"/signup-4"} prev={"/signup-3"} />
         </Route>
         <Route exact path="/signup-4">
-          <SignUpForm4 />
+          <SignUpForm4 next={"/signup-5"} prev={"/signup-4"} />
         </Route>
         <Route exact path="/signup-5">
-          <SignUpForm5 />
+          <SignUpForm5 next={"/signup-1"} prev={"/signup-4"} />
         </Route>
 
         <Route path="/products/:id">"new product"</Route>
