@@ -1,6 +1,7 @@
-import styles from "./Navbar.module.css"
 
-export const Form1Navbar = () => {
+import styles from "./Navbar2.module.css"
+
+export const Form2Navbar = () => {
 
   return (
   <div>
@@ -9,9 +10,7 @@ export const Form1Navbar = () => {
 <div className={styles.logodiv}>
   <img src="logo.svg" alt="logo"/>
 </div>
-{/* <div className={styles.loginDiv}>
- Login
-</div> */}
+
 
 </div>
   </div>

@@ -1,8 +1,15 @@
 import Connect from "../components/Home-Page/Connect/Connect";
+
+import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
+import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
+import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
+import { SignUpForm4 } from "../components/SignUp-Forms/Form4/index";
+import { SignUpForm5 } from "../components/SignUp-Forms/Form5/index";
+
 import Footer from "../components/Home-Page/Footer/Footer";
 import Hero from "../components/Home-Page/Hero/Hero";
 import NavbarWithoutLogin from "../components/Home-Page/Navbar_withoutlogin/Navbar_withoutlogin";
-import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
+
 import {
   SignUpBackButton,
   SignUpNextButton,
@@ -52,7 +59,13 @@ export const Test = () => {
       <WideInput placeholder={"Create a password"} typeInput={"password"} />{" "}
       <WideInput placeholder={"Create a Username"} typeInput={"text"} /> <br />
       <br />
-      <SelectForm3
+      <SelectForm3 />
+      {/* <SignUpForm2 /> */}
+      {/* <SignUpForm3 /> */}
+      {/* <SignUpForm4 />
+      <SignUpForm5 /> */}
+      {/* <SelectForm3
+
         heading={"hello my name is arpit"}
         para={
           "Child compo nentTo PassDownC h ild  componen tToPa ssDow nChild  componen tToPassDo "
@@ -61,7 +74,7 @@ export const Test = () => {
       />
       <br />
       {/* <SignUpForm1 /> */}
-      <SignUpBackButton>Back</SignUpBackButton>
+      {/* <SignUpBackButton>Back</SignUpBackButton>
       <SignUpNextButton>Next</SignUpNextButton>
       <br />
       <br />
@@ -95,14 +108,11 @@ export const Test = () => {
       <SubTitle1>SubTitle1</SubTitle1>
       <SubTitle2>SubTitle2</SubTitle2>
       <Body1>Body1</Body1>
-      <Body2>Body2</Body2>
-      <FooterText>footer text</FooterText>
+      <Body2>Body2</Body2>  */}
       {/* <NavbarWithoutLogin/>
       <Hero/>
       <Footer/> */}
-
       <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
-
       <NavbarWithoutLogin />
       <Hero />
       <Connect />

@@ -1,21 +1,13 @@
-import styled from "styled-components";
+import { Form1Navbar } from "./Navbar.Form1";
 
-const NavGrid = styled.div`
-  display: grid;
-  grid-template-columns: auto auto;
-  font-family: "NeueL";
-`;
+import { Form1card } from "./Form1card";
+
 
 export const SignUpForm1 = () => {
   return (
     <div>
-      <NavGrid>
-        <div>arpit</div>
-        <div>arpit</div>
-        <div>arpit</div>
-        <div>arpit</div>
-        <div>arpit</div>
-      </NavGrid>
+     <Form1Navbar />
+    <Form1card />
     </div>
   );
 };

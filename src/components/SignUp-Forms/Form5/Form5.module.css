@@ -1,0 +1,149 @@
+
+.card5main{
+    position: absolute;
+width: 31.77vw;
+height: 71.98vh;
+margin-left: calc(50% - 488px/2);
+margin-top: 7.22vh;
+
+/* Primary colours/Snow */
+
+background-color: #FFFFFF;
+box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25), 8px 0px 20px rgba(135, 135, 135, 0.25);
+border-radius: 8px;
+border: 1px solid blue;
+}
+
+.rect3{
+    width: 244px;
+    height: 8px;
+    position: absolute;
+left: 0%;
+right: 50%;
+top: 0%;
+bottom: 0%;
+
+/* Primary colours/Ocean eye */
+
+background-color: #0066EE;
+border-radius: 8px 0px 0px 0px;
+}
+
+.ques5{
+    justify-content: center;
+align-items: center;
+
+position: absolute;
+width: 22.91vw;
+height: 7.83vh;
+margin-left: 4.42vw;
+margin-top: 7.22vh;
+/* border: 1px solid blue; */
+}
+/* .optionbox{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+ 
+} */
+.para5{
+    position: absolute;
+    width: 22.91vw;
+    height: 6.62vh;
+    margin-left: 4.42vw;
+    margin-top: 15.06vh;
+    /* border: 1px solid blue; */
+}
+.boxbig{
+    position: absolute;
+    width: 22.91vw;
+    height: 11.44vh;
+    margin-left: 4.42vw;
+    margin-top: 25.30vh;
+    text-align: center;
+    align-items: center;
+    /* Primary colours/Snow */
+    
+    background-color: #FFFFFF;
+    /* CHARCOAL 40 */
+    
+    border: 1px solid rgba(34, 38, 40, 0.4);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.boxsmall{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 22.91vw;
+    height: 7.83vh;
+    margin-left: 4.42vw;
+   
+    margin-top: 37.95vh;
+    background-color: #FFFFFF;
+    /* CHARCOAL 40 */
+    
+    border: 1px solid rgba(34, 38, 40, 0.4);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.boxbig:focus,.boxsmall:focus {
+    background-color: white;
+    border: 1px solid #0066ee;
+    color: #0066ee;
+  }
+
+.back5{
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+position: absolute;
+width: 10.93vw;
+height: 6.77vh;
+margin-left: 4.42vw;
+margin-top: 52.40vh;
+background-color: #FFFFFF;
+/* Primary colours/Ocean eye */
+font-family: "NeueB";
+color:#0066EE;
+border: 1px solid #0066EE;
+box-sizing: border-box;
+border-radius: 4px;
+
+transition: 0.3s ease-out;
+
+}
+
+ 
+
+.next5{
+  
+justify-content: center;
+align-items: center;
+padding: 8px;
+
+position: absolute;
+width: 10.93vw;
+height: 6.77vh;
+margin-left: 16.40vw;
+margin-top: 52.40vh;
+
+/* Primary colours/Ocean eye */
+font-family: "NeueB";
+color: #FFFFFF;
+background-color: #0066EE;
+border-radius: 4px;
+}
+.back5:hover {
+    background-color: #005bd4;
+    border: 1px solid #005bd4;
+    color: white;
+  }
+.next5:hover{
+    background-color: #005bd4;
+    border: 1px solid #005bd4;
+    color: white;
+}
