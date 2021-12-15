@@ -8,18 +8,22 @@ const RadioLabel = styled.label`
 `;
 
 const InputWeight = styled.input`
-  width: 9.077598828696924vw;
-  height: 3.1473533619456364vh;
+  width: 10.273792093704246vw;
+  height: 6.725321888412017vh;
   font-size: 1.171303074670571vw;
   padding-top: 2.2889842632331905vh;
   padding-bottom: 2.2889842632331905vh;
-  padding-right: 1.9033674963396778vw;
+  padding-right: 1.4033674963396778vw;
   padding-left: 1.3177159590043923vw;
   color: rgba(34, 38, 40, 0.6);
   border: 1px solid rgba(34, 38, 40, 0.4);
   border-radius: 4px;
+  transition: 0.3s ease-out;
   ::placeholder {
-    padding-left: 5vw;
+    padding-left: 6vw;
+  }
+  &:focus {
+    outline: 1px solid rgba(34, 38, 40, 0.4);
   }
 `;
 
@@ -52,10 +56,10 @@ export const RadioBtn = () => {
   );
 };
 
-export const WeightInput = () => {
+export const WeightInput = ({ placeholder }) => {
   return (
     <>
-      <InputWeight type="text" name="" id="" placeholder="ft" />
+      <InputWeight type="text" name="" id="" placeholder={placeholder} />
     </>
   );
 };

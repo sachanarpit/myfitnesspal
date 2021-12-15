@@ -42,7 +42,8 @@ export const Test = () => {
     <>
       <RadioBtn />
       <br />
-      <WeightInput />
+      <WeightInput placeholder={"ft"} />
+      <WeightInput placeholder={"lbs"} />
       <br />
       <br />
       <SelectForm3
