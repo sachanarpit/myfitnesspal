@@ -11,6 +11,7 @@ const InputWeight = styled.input`
   width: 10.273792093704246vw;
   height: 6.725321888412017vh;
   font-size: 1.171303074670571vw;
+  font-family: "NeueSB";
   padding-top: 2.2889842632331905vh;
   padding-bottom: 2.2889842632331905vh;
   padding-right: 1.4033674963396778vw;
@@ -18,15 +19,18 @@ const InputWeight = styled.input`
   color: rgba(34, 38, 40, 0.6);
   border: 1px solid rgba(34, 38, 40, 0.4);
   border-radius: 4px;
-  transition: 1s ease-out;
+  transition: 0.2s ease-out;
 
   ::placeholder {
-    padding-left: 6vw;
+    padding-left: 5.8vw;
   }
   &:focus {
-    outline: 1px solid rgba(34, 38, 40, 0.4);
+    outline: 2px solid #005bd4;
+    border: 1px solid transparent;
   }
 `;
+
+const InputWide = styled.input``;
 
 export const RadioBtn = () => {
   return (
@@ -63,4 +67,8 @@ export const WeightInput = ({ placeholder }) => {
       <InputWeight type="text" name="" id="" placeholder={placeholder} />
     </>
   );
+};
+
+export const WideInput = ({ placeholder, typeInput }) => {
+  return <></>;
 };
