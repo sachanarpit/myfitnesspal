@@ -1,3 +1,4 @@
+import Connect from "../components/Home-Page/Connect/Connect";
 import Footer from "../components/Home-Page/Footer/Footer";
 import Hero from "../components/Home-Page/Hero/Hero";
 import NavbarWithoutLogin from "../components/Home-Page/Navbar_withoutlogin/Navbar_withoutlogin";
@@ -24,6 +25,7 @@ export const Test = () => {
 
       <NavbarWithoutLogin />
       <Hero />
+      <Connect />
       <Footer />
     </>
   );
