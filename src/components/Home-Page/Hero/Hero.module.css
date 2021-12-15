@@ -116,3 +116,7 @@
   font-family: "NeueEB";
   text-align: center;
 }
+.search img {
+  height: 100%;
+  width: 100%;
+}
