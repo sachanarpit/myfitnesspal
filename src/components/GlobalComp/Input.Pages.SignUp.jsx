@@ -18,6 +18,9 @@ const InputWeight = styled.input`
   color: rgba(34, 38, 40, 0.6);
   border: 1px solid rgba(34, 38, 40, 0.4);
   border-radius: 4px;
+  ::placeholder {
+    padding-left: 5vw;
+  }
 `;
 
 export const RadioBtn = () => {
