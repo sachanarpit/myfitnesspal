@@ -35,6 +35,9 @@ export const SignUpNextButton = styled.button`
     border: 1px solid #005bd4;
     color: white;
   }
+  &:focus {
+    outline: 1px solid #005bd4;
+  }
 `;
 export const SignUpContinueButton = styled.button`
   border: 0px solid rgba(0, 102, 238, 1);
