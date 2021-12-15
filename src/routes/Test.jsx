@@ -120,10 +120,8 @@ export const Test = () => {
       <Hero />
       <Footer /> */}
 
-      <NavbarWithoutLogin />
-      <Hero />
-      <Connect />
-      <Footer />
+      <IndexHome />
+      <NutritionFacts />
     </>
   );
 };
