@@ -50,7 +50,7 @@ import {
 export const Test = () => {
   return (
     <>
-      <RadioBtn />
+      {/* <RadioBtn />
       <br />
       <WeightInput placeholder={"ft"} /> <WeightInput placeholder={"lbs"} />
       <br />
@@ -59,7 +59,7 @@ export const Test = () => {
       <WideInput placeholder={"Create a password"} typeInput={"password"} />{" "}
       <WideInput placeholder={"Create a Username"} typeInput={"text"} /> <br />
       <br />
-      <SelectForm3 />
+      <SelectForm3 /> */}
       {/* <SignUpForm2 /> */}
       {/* <SignUpForm3 /> */}
       {/* <SignUpForm4 />
@@ -109,10 +109,11 @@ export const Test = () => {
       <SubTitle2>SubTitle2</SubTitle2>
       <Body1>Body1</Body1>
       <Body2>Body2</Body2>  */}
-      {/* <NavbarWithoutLogin/>
-      <Hero/>
-      <Footer/> */}
-      <GoalBtnSignUp>Lose Weight</GoalBtnSignUp>
+      {/* <GoalBtnSignUp>Lose Weight</GoalBtnSignUp> */}
+      {/* <NavbarWithoutLogin />
+      <Hero />
+      <Footer /> */}
+
       <NavbarWithoutLogin />
       <Hero />
       <Connect />
