@@ -1,9 +1,9 @@
-import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
+import { SignUpForm5 } from "../components/SignUp-Forms/Form5/index";
 
 export const Test = () => {
   return (
     <>
-      <SignUpForm1 />
+      <SignUpForm5 />
     </>
   );
 };
