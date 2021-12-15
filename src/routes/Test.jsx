@@ -20,6 +20,7 @@ import {
   SubTitle2,
   Body2,
   Body1,
+  FooterText,
 } from "../components/GlobalComp/Heading.Pages.Signup";
 import {
   ProgressBar1,
@@ -94,6 +95,7 @@ export const Test = () => {
       <SubTitle2>SubTitle2</SubTitle2>
       <Body1>Body1</Body1>
       <Body2>Body2</Body2>
+      <FooterText>footer text</FooterText>
       {/* <NavbarWithoutLogin/>
       <Hero/>
       <Footer/> */}
