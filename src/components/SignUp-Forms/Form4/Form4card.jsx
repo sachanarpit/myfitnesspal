@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import { Body2, Heading6 } from "../../GlobalComp/Heading.Pages.Signup";
 import styles from "./Form4.module.css";
 
-export const Form4card = () => {
+export const Form4card = ({ prev, next }) => {
   return (
     <>
       <div className={styles.card4main}>
@@ -56,8 +57,12 @@ export const Form4card = () => {
           </Body2>
         </div>
         <div>
-          <button className={styles.back2}>Back</button>
-          <button className={styles.next2}>Next</button>
+          <Link to={prev}>
+            <button className={styles.back2}>Back</button>
+          </Link>
+          <Link to={next}>
+            <button className={styles.next2}>Next</button>
+          </Link>
         </div>
       </div>
     </>
