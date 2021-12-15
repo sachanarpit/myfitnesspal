@@ -18,7 +18,8 @@ const InputWeight = styled.input`
   color: rgba(34, 38, 40, 0.6);
   border: 1px solid rgba(34, 38, 40, 0.4);
   border-radius: 4px;
-  transition: 0.3s ease-out;
+  transition: 1s ease-out;
+
   ::placeholder {
     padding-left: 6vw;
   }
