@@ -2,7 +2,7 @@
   position: relative;
   width: 100vw;
   height: 129.36882129277566vh;
-  outline: solid red thin;
+  /* outline: solid red thin; */
 }
 .img {
   width: 100%;
@@ -119,4 +119,15 @@
 .search img {
   height: 100%;
   width: 100%;
+}
+.above_search2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 40.55555555555556vw;
+  height: 5.576679340937896vh;
+  outline: solid tomato;
+  left: 50%;
+  margin-left: -20.27777777777778vw;
+  bottom: 200px;
+  font-size: 1.1111111111111112vw;
 }
