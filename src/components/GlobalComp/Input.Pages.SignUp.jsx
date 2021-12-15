@@ -70,5 +70,9 @@ export const WeightInput = ({ placeholder }) => {
 };
 
 export const WideInput = ({ placeholder, typeInput }) => {
-  return <></>;
+  return (
+    <>
+      <InputWide />
+    </>
+  );
 };

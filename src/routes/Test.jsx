@@ -35,6 +35,7 @@ import { SelectForm3 } from "../components/SignUp-Forms/Form3/Select.Form3";
 import {
   RadioBtn,
   WeightInput,
+  WideInput,
 } from "../components/GlobalComp/Input.Pages.SignUp";
 
 export const Test = () => {
@@ -42,9 +43,12 @@ export const Test = () => {
     <>
       <RadioBtn />
       <br />
-      <WeightInput placeholder={"ft"} />
-      <WeightInput placeholder={"lbs"} />
+      <WeightInput placeholder={"ft"} /> <WeightInput placeholder={"lbs"} />
       <br />
+      <br />
+      <WideInput placeholder={"Email adress"} typeInput={"email"} />{" "}
+      <WideInput placeholder={"Create a password"} typeInput={"password"} />{" "}
+      <WideInput placeholder={"Create a Username"} typeInput={"text"} /> <br />
       <br />
       <SelectForm3
         heading={"hello my name is arpit"}
