@@ -1,10 +1,10 @@
 
 .card3main{
     position: absolute;
-    width: 488px;
-    height: 763px;
+    width: 31.77vw;
+    height: 114.90vh;
     margin-left: calc(50% - 488px/2);
-    margin-top: 7.22vh;
+    /* margin-top: 7.22vh; */
     
     /* Primary colours/Snow */
     
@@ -13,7 +13,7 @@
     
     box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25), 8px 0px 20px rgba(135, 135, 135, 0.25);
     border-radius: 8px;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 }
 
 .rect2{
@@ -33,19 +33,20 @@ border: 1px solid blue;
 
 .ques1{
     position: static;
-    width: 22.91vw;
+    width: 25.91vw;
     height: 9.63vh;
  margin-left:4.42vw;
  margin-top: 10.24vh;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 }
 .para1{
     position: static;
-    width: 22.26vw;
+    width: 24.26vw;
     height: 3.31vh;
     margin-left:4.42vw;
-margin-top: 0px;
-border: 1px solid blue;
+margin-top: 4px;
+font-family: "NeueSB";
+/* border: 1px solid blue; */
 }
 /* .optionbox{
     display: grid;
@@ -69,7 +70,11 @@ border: 1px solid #0066EE;
 box-sizing: border-box;
 border-radius: 4px;
 }
-
+.body1{
+    margin-bottom:0px;
+    margin-top:2px;
+    margin-left:8px;
+}
 .box2{
     margin-top: 20.78vh;
 }
@@ -91,17 +96,19 @@ margin-left: 4.42vw;
 margin-top: 73.19vh;
 background-color: #FFFFFF;
 /* Primary colours/Ocean eye */
+font-family: "NeueB";
 color:#0066EE;
 border: 1px solid #0066EE;
 box-sizing: border-box;
 border-radius: 4px;
+transition: 0.3s ease-out;
 }
 
 .next1{
   
 justify-content: center;
 align-items: center;
-padding: 10px;
+padding: 8px;
 
 position: absolute;
 width: 10.93vw;
@@ -110,7 +117,19 @@ margin-left: 16.40vw;
 margin-top: 73.19vh;
 
 /* Primary colours/Ocean eye */
+font-family: "NeueB";
 color: #FFFFFF;
 background-color: #0066EE;
 border-radius: 4px;
+transition: 0.3s ease-out;
+}
+.back1:hover {
+    background-color: #005bd4;
+    border: 1px solid #005bd4;
+    color: white;
+  }
+.next1:hover{
+    background-color: #005bd4;
+    border: 1px solid #005bd4;
+    color: white;
 }

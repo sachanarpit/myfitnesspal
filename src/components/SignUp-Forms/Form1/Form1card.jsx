@@ -1,4 +1,6 @@
 
+import { Heading6 } from "../../GlobalComp/Heading.Pages.Signup"
+import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button"
 import styles from "./Form1.module.css"
 
 
@@ -8,10 +10,11 @@ export const Form1card =()=>{
         <>
         <div className={styles.card1main}>
       <div className={styles.text}>
-          Welcome! just a few quick questions so we can customize Myfitnesspal for you
+          <Heading6>Welcome! Just a few quick questions so we can customize MyfitnessPal for you</Heading6>
+      </div >
+      <div className={styles.butt}>     
+     <SignUpContinueButton >CONTINUE</SignUpContinueButton>
       </div>
-      <button className={styles.butt}>CONTINUE</button>
-
         </div>
         </>
     )

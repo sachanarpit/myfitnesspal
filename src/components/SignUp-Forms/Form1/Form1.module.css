@@ -11,27 +11,24 @@ margin-top: 7.22vh;
 background-color: #FFFFFF;
 box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25), 8px 0px 20px rgba(135, 135, 135, 0.25);
 border-radius: 8px;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 }
 
 .text{
     position: static;
+    text-align: center;
 width: 22.91vw;
 height: 14.45vh;
 margin-top: 178px;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 margin-left: 48px;
 }
 .butt{
     
     position: absolute;
-width: 352px;
-height: 45px;
 margin-left: calc(50% - 352px/2);
-margin-top: 51px;
+margin-top: 10.69vh;
 
 /* Primary colours/Ocean eye */
-color: white;
-background-color: #0066EE;
-border-radius: 4px;
+
 }

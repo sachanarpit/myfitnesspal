@@ -37,7 +37,8 @@ border: 1px solid blue;
     height: 15.66vh;
  margin-left:4.42vw;
  margin-top: 10.24vh;
-border: 1px solid blue;
+/* border: 1px solid blue; */
+
 }
 .male{
     position: absolute;
@@ -73,7 +74,7 @@ width: 22.91vw;
 height: 6.02vh;
 margin-left: 4.42vw;
 margin-top: 5.52vh;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 }
 .live{
     margin-top: 26.20vh;
@@ -113,7 +114,8 @@ border-radius: 4px;
     height: 6.62vh;
     margin-left: 4.42vw;
     margin-top: 44.57vh;
-    border: 1px solid blue;
+
+    /* border: 1px solid blue; */
 }
 
 .back2{
@@ -128,17 +130,19 @@ margin-left: 4.42vw;
 margin-top: 57.22vh;
 background-color: #FFFFFF;
 /* Primary colours/Ocean eye */
+font-family: "NeueB";
 color:#0066EE;
 border: 1px solid #0066EE;
 box-sizing: border-box;
 border-radius: 4px;
+transition: 0.3s ease-out;
 }
 
 .next2{
   
 justify-content: center;
 align-items: center;
-padding: 10px;
+padding: 8px;
 
 position: absolute;
 width: 10.93vw;
@@ -147,7 +151,19 @@ margin-left: 16.40vw;
 margin-top: 57.22vh;
 
 /* Primary colours/Ocean eye */
+font-family: "NeueB";
 color: #FFFFFF;
 background-color: #0066EE;
 border-radius: 4px;
+transition: 0.3s ease-out;
+}
+.back2:hover {
+    background-color: #005bd4;
+    border: 1px solid #005bd4;
+    color: white;
+  }
+.next2:hover{
+    background-color: #005bd4;
+    border: 1px solid #005bd4;
+    color: white;
 }

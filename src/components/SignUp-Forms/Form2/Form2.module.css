@@ -4,14 +4,14 @@
 width: 31.77vw;
 height: 68.22vh;
 margin-left: calc(50% - 488px/2);
-margin-top: 7.22vh;
-
+/* margin-top: 7.22vh; */
+margin-top: 0px;
 /* Primary colours/Snow */
 
 background-color: #FFFFFF;
 box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25), 8px 0px 20px rgba(135, 135, 135, 0.25);
 border-radius: 8px;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 }
 
 .rect{
@@ -39,7 +39,7 @@ width: 22.91vw;
 height: 7.83vh;
 margin-left: 4.42vw;
 margin-top: 48px;
-border: 1px solid blue;
+
 }
 /* .optionbox{
     display: grid;
@@ -60,14 +60,23 @@ margin-left: 4.42vw;
 margin-top: 21.68vh;
 
 /* Primary colours/Snow */
-
+font-family: "NeueSB";
+align-items: center;
+text-align: center;
 background-color: #FFFFFF;
 /* CHARCOAL 40 */
 
 border: 1px solid rgba(34, 38, 40, 0.4);
 box-sizing: border-box;
 border-radius: 4px;
+transition: 0.15s ease-out;
 }
+  .option1:focus,.option2:focus,.option3:focus {
+    background-color: white;
+    border: 1px solid #0066ee;
+    color: #0066ee;
+  }
+
 .option2{
     margin-top: 30.42vh;
 }
@@ -87,17 +96,19 @@ margin-left: 4.42vw;
 margin-top: 54.21vh;
 background-color: #FFFFFF;
 /* Primary colours/Ocean eye */
+font-family: "NeueB";
 color:#0066EE;
 border: 1px solid #0066EE;
 box-sizing: border-box;
 border-radius: 4px;
+transition: 0.3s ease-out;
 }
 
 .next{
   
 justify-content: center;
 align-items: center;
-padding: 10px;
+padding: 8px;
 
 position: absolute;
 width: 10.93vw;
@@ -106,7 +117,19 @@ margin-left: 16.40vw;
 margin-top: 54.21vh;
 
 /* Primary colours/Ocean eye */
+font-family: "NeueB";
 color: #FFFFFF;
 background-color: #0066EE;
 border-radius: 4px;
+transition: 0.3s ease-out;
+}
+.back:hover {
+    background-color: #005bd4;
+    border: 1px solid #005bd4;
+    color: white;
+  }
+.next:hover{
+    background-color: #005bd4;
+    border: 1px solid #005bd4;
+    color: white;
 }
