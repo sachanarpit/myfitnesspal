@@ -19,7 +19,7 @@ export const SignUpBackButton = styled.button`
   }
 `;
 export const SignUpNextButton = styled.button`
-  border: 1px solid rgba(0, 102, 238, 1);
+  border: 0px solid rgba(0, 102, 238, 1);
   box-sizing: border-box;
   border-radius: 4px;
   background: rgba(0, 102, 238, 1);
