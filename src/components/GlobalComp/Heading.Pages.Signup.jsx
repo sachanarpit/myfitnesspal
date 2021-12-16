@@ -66,3 +66,10 @@ export const Body2 = styled.p`
   font-size: 1.0248901903367496vw;
   color: rgba(34, 38, 40, 0.8);
 `;
+
+export const FooterText = styled.p`
+  font-family: "NeueL";
+  font-weight: normal;
+  font-size: 0.8784773060029283vw;
+  color: #363636;
+`;
