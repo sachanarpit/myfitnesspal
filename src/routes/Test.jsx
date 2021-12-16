@@ -53,6 +53,7 @@ import {
 export const Test = () => {
   return (
     <>
+      <img src="/loading.gif" alt="" />
       {/* <RadioBtn />
       <br />
       <WeightInput placeholder={"ft"} /> <WeightInput placeholder={"lbs"} />
@@ -119,9 +120,9 @@ export const Test = () => {
       {/* <NavbarWithoutLogin />
       <Hero />
       <Footer /> */}
-
+      {/* 
       <IndexHome />
-      <NutritionFacts />
+      <NutritionFacts /> */}
     </>
   );
 };
