@@ -1,0 +1,26 @@
+.navmain {
+  width: 93.75vw;
+  height: 11.08vh;
+  /* margin-left: calc(50% - 1440px/2); */
+  margin: auto;
+  /* border: 1px solid blue; */
+  background-color: #ffffff;
+}
+
+.logodiv {
+  width: 13.02vw;
+  height: 5.72vh;
+  padding: 4px;
+  /* border: 1px solid blue; */
+  margin-left: 17.05vw;
+  margin-top: 3.76vh;
+}
+
+.loginDiv {
+  position: static;
+  width: 2.66vw;
+  height: 3.31vh;
+  margin-left: 73.76vw;
+  margin-top: 29px;
+  color: rgba(0, 102, 238, 1);
+}
