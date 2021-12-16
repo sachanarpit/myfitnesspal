@@ -62,7 +62,11 @@ export const Test = () => {
   return (
     <>
 
+
       <SignUpForm9 /> 
+
+
+      <img src="/loading.gif" alt="" />
 
       {/* <RadioBtn />
       <br />
@@ -131,9 +135,9 @@ export const Test = () => {
       {/* <NavbarWithoutLogin />
       <Hero />
       <Footer /> */}
-
+      {/* 
       <IndexHome />
-      <NutritionFacts />
+      <NutritionFacts /> */}
     </>
   );
 };
