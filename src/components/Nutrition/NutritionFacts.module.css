@@ -20,21 +20,21 @@
 .first {
   width: 11.319444444444445vw;
   /* outline: solid blue; */
+  margin-right: 4%;
 }
 .second {
   width: 15.902777777777779vw;
-  outline: red solid;
+  /* outline: red solid; */
 }
 .third {
   width: 12.5vw;
-  outline: solid skyblue;
+  /* outline: solid skyblue; */
 }
 .vdark {
   font-weight: 900;
   font-size: 1.6666666666666667vw;
   color: rgba(34, 38, 40, 1);
   font-family: "NeueSB";
-  line-height: 4.055766793409379vh;
 }
 .pl {
   font-weight: 600;
@@ -87,4 +87,28 @@
   /* outline: skyblue solid; */
   margin-top: 3%;
   flex-wrap: wrap;
+}
+.sdark {
+  font-weight: 600;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueL";
+  font-size: 22px;
+}
+.date {
+  font-size: 450;
+  font-size: 1vw;
+}
+.fat1 {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  /* outline: skyblue solid; */
+  margin-top: 8%;
+}
+.fat2 {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  /* outline: skyblue solid; */
+  margin-top: 5%;
 }
