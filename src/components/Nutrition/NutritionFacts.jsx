@@ -11,6 +11,7 @@ function NutritionFacts() {
             <img src={vector} alt="mn" />
           </span>
         </div>
+        <div className={styles.verylight}>1 cup, 157 calories</div>
       </div>
       <div className={styles.second}></div>
       <div className={styles.third}></div>
