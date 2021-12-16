@@ -35,8 +35,6 @@
   color: rgba(34, 38, 40, 1);
   font-family: "NeueSB";
   line-height: 4.055766793409379vh;
-  vertical-align: top;
-  text-align: center;
 }
 .pl {
   font-weight: 600;
@@ -44,8 +42,6 @@
   color: rgba(34, 38, 40, 1);
   font-family: "NeueSB";
   line-height: 2.788339670468948vh;
-  vertical-align: center;
-  text-align: center;
 }
 .poha {
   display: flex;
@@ -59,8 +55,6 @@
   color: rgba(34, 38, 40, 1);
   font-family: "NeueT";
   line-height: 2.0278833967046896vh;
-  vertical-align: center;
-  text-align: start;
 }
 .calories {
   display: flex;
@@ -70,20 +64,19 @@
   margin-top: 10%;
 }
 .dark {
-  font-weight: 700;
-  font-size: 1.25vw;
   color: rgba(34, 38, 40, 1);
+  font-weight: 700;
   font-family: "NeueSB";
-  line-height: 3.1368821292775664vh;
-  vertical-align: center;
-  text-align: start;
 }
 .light {
-  font-weight: 400;
-  font-size: 0.9722222222222222vw;
   color: rgba(34, 38, 40, 1);
+  font-weight: 400;
   font-family: "NeueT";
-  /* line-height: 2.0278833967046896vh; */
-  vertical-align: center;
-  text-align: start;
+}
+.fat {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* outline: skyblue solid; */
+  margin-top: 6%;
 }

@@ -16,6 +16,14 @@ function NutritionFacts() {
           <div className={styles.dark}>Calories</div>
           <div className={styles.light}>157</div>
         </div>
+        <div className={styles.fat}>
+          <div className={styles.dark}>Total Fat</div>
+          <div className={styles.light}>0 g</div>
+        </div>
+        <div className={styles.fat}>
+          <div className={styles.light}>Saturated</div>
+          <div className={styles.light}>0 g</div>
+        </div>
       </div>
       <div className={styles.second}></div>
       <div className={styles.third}></div>
