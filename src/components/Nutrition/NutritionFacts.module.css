@@ -2,6 +2,7 @@
   width: 46.388888888888886vw;
   height: 50.69708491761724vh;
   display: flex;
+  justify-content: space-between;
   /* outline: red solid; */
   margin: 50px auto;
   background-color: rgba(255, 255, 255, 1);
@@ -19,4 +20,17 @@
 .second {
   width: 15.902777777777779vw;
   outline: red solid;
+}
+.third {
+  width: 12.5vw;
+  outline: solid skyblue;
+}
+.vdark {
+  font-weight: 900;
+  font-size: 1.6666666666666667vw;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueSB";
+  line-height: 4.055766793409379vh;
+  vertical-align: top;
+  text-align: center;
 }
