@@ -112,3 +112,33 @@
   /* outline: skyblue solid; */
   margin-top: 5%;
 }
+.data {
+  font-weight: 600;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueSB";
+  font-size: 1.25vw;
+}
+.cont {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.cont1 {
+  width: 100%;
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+}
+.w {
+  width: 45%;
+}
+.w img {
+  width: 100%;
+}
+.w1 {
+  width: 75%;
+}
+.w1 img {
+  width: 100%;
+}

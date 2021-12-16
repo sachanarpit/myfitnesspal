@@ -1,5 +1,9 @@
 import styles from "./NutritionFacts.module.css";
 import vector from "./Utils/Vector.svg";
+import no from "./Utils/No.svg";
+import yes from "./Utils/Yes.svg";
+import dk from "./Utils/Dk.svg";
+
 function NutritionFacts() {
   return (
     <div className={styles.main}>
@@ -89,7 +93,22 @@ function NutritionFacts() {
           <div className={styles.light}>33 mg</div>
         </div>
       </div>
-      <div className={styles.third}></div>
+      <div className={styles.third}>
+        <div className={styles.data}>Is this Data Accurate ?</div>
+        <div className={styles.cont}>
+          <div className={styles.w}>
+            <img src={no} alt="no" />
+          </div>
+          <div className={styles.w}>
+            <img src={yes} alt="no" />
+          </div>
+        </div>
+        <div className={styles.cont1}>
+          <div className={styles.w1}>
+            <img src={dk} alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
