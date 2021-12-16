@@ -8,15 +8,19 @@ export const Form1card = ({ next }) => {
     <>
       <div className={styles.card1main}>
         <div className={styles.text}>
-          <Heading6>
-            Welcome! Just a few quick questions so we can customize MyfitnessPal
-            for you
-          </Heading6>
+          <center>
+            <Heading6>
+              Welcome! Just a few quick questions so we can customize
+              MyfitnessPal for you
+            </Heading6>
+          </center>
         </div>
         <div className={styles.butt}>
-          <Link to={next}>
-            <SignUpContinueButton>CONTINUE</SignUpContinueButton>
-          </Link>
+          <center>
+            <Link to={next}>
+              <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+            </Link>
+          </center>
         </div>
       </div>
     </>

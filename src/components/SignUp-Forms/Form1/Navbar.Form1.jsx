@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 export const Form1Navbar = () => {
@@ -5,7 +6,9 @@ export const Form1Navbar = () => {
     <div>
       <div className={styles.navmain}>
         <div className={styles.logodiv}>
-          <img src="logo.svg" alt="logo" />
+          <Link to="/">
+            <img src="logo.svg" alt="logo" />
+          </Link>
         </div>
         {/* <div className={styles.loginDiv}>
  Login

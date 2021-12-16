@@ -6,7 +6,9 @@ export const SignUpForm1 = ({ next }) => {
   return (
     <div>
       <Form1Navbar />
-      <Form1card next={next} />
+      <center>
+        <Form1card next={next} />
+      </center>
     </div>
   );
 };

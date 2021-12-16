@@ -21,11 +21,8 @@
   height: 14.45vh;
   margin-top: 178px;
   /* border: 1px solid blue; */
-  margin-left: 48px;
 }
 .butt {
-  position: absolute;
-  margin-left: calc(50% - 352px / 2);
   margin-top: 10.69vh;
 
   /* Primary colours/Ocean eye */
