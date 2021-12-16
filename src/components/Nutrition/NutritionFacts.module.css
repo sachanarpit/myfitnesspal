@@ -13,6 +13,10 @@
   box-sizing: border-box;
   padding: 1.6666666666666667vw;
 }
+.main * {
+  margin: 0;
+  padding: 0;
+}
 .first {
   width: 11.319444444444445vw;
   outline: solid blue;
@@ -33,4 +37,19 @@
   line-height: 4.055766793409379vh;
   vertical-align: top;
   text-align: center;
+}
+.pl {
+  font-weight: 600;
+  font-size: 1.1111111111111112vw;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueSB";
+  line-height: 2.788339670468948vh;
+  vertical-align: center;
+  text-align: center;
+}
+.poha {
+  display: flex;
+  justify-content: space-between;
+  width: 32%;
+  /* outline: skyblue solid; */
 }
