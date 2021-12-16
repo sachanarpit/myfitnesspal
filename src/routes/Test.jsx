@@ -3,7 +3,10 @@
 // import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
 // import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
 // import { SignUpForm4 } from "../components/SignUp-Forms/Form4/index";
- import { SignUpForm5 } from "../components/SignUp-Forms/Form5/index";
+// import { SignUpForm5 } from "../components/SignUp-Forms/Form5/index";
+// import { SignUpForm7 } from "../components/SignUp-Forms/Form7/index";
+// import { SignUpForm8 } from "../components/SignUp-Forms/Form8/index";
+ import {SignUpForm9 }  from "../components/SignUp-Forms/Form9/index"
 
 import Footer from "../components/Home-Page/Footer/Footer";
 import Hero from "../components/Home-Page/Hero/Hero";
@@ -44,7 +47,7 @@ import { SelectForm3 } from "../components/SignUp-Forms/Form3/Select.Form3";
 export const Test = () => {
   return (
     <>
-      <SignUpForm5 /> 
+      <SignUpForm9 /> 
       {/* <SignUpForm2 /> */}
       {/* <SignUpForm3 /> */}
       {/* <SignUpForm4 />
