@@ -12,6 +12,10 @@ function NutritionFacts() {
           </span>
         </div>
         <div className={styles.verylight}>1 cup, 157 calories</div>
+        <div className={styles.calories}>
+          <div className={styles.dark}>Calories</div>
+          <div className={styles.light}>157</div>
+        </div>
       </div>
       <div className={styles.second}></div>
       <div className={styles.third}></div>

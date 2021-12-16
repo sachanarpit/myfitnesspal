@@ -23,11 +23,11 @@
 }
 .second {
   width: 15.902777777777779vw;
-  /* outline: red solid; */
+  outline: red solid;
 }
 .third {
   width: 12.5vw;
-  /* outline: solid skyblue; */
+  outline: solid skyblue;
 }
 .vdark {
   font-weight: 900;
@@ -59,6 +59,31 @@
   color: rgba(34, 38, 40, 1);
   font-family: "NeueT";
   line-height: 2.0278833967046896vh;
+  vertical-align: center;
+  text-align: start;
+}
+.calories {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* outline: skyblue solid; */
+  margin-top: 10%;
+}
+.dark {
+  font-weight: 700;
+  font-size: 1.25vw;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueSB";
+  line-height: 3.1368821292775664vh;
+  vertical-align: center;
+  text-align: start;
+}
+.light {
+  font-weight: 400;
+  font-size: 0.9722222222222222vw;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueT";
+  /* line-height: 2.0278833967046896vh; */
   vertical-align: center;
   text-align: start;
 }
