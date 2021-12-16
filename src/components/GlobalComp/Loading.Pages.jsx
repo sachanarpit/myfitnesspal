@@ -1,4 +1,4 @@
-export const Loading = () => {
+export const LoaderComp = () => {
   return (
     <div>
       <center>
