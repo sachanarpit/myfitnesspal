@@ -80,3 +80,11 @@
   /* outline: skyblue solid; */
   margin-top: 6%;
 }
+.poly {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* outline: skyblue solid; */
+  margin-top: 3%;
+  flex-wrap: wrap;
+}

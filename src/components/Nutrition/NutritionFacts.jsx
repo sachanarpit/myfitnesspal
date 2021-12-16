@@ -24,6 +24,30 @@ function NutritionFacts() {
           <div className={styles.light}>Saturated</div>
           <div className={styles.light}>0 g</div>
         </div>
+        <div className={styles.poly}>
+          <div className={styles.light}>Polysaturated</div>
+          <div className={styles.light}>0 g</div>
+        </div>
+        <div className={styles.poly}>
+          <div className={styles.light}>Monosaturated</div>
+          <div className={styles.light}>0 g</div>
+        </div>
+        <div className={styles.poly}>
+          <div className={styles.dark}>Cholestrol</div>
+          <div className={styles.light}>0 g</div>
+        </div>
+        <div className={styles.poly}>
+          <div className={styles.light}>Trans</div>
+          <div className={styles.light}>0 g</div>
+        </div>
+        <div className={styles.poly}>
+          <div className={styles.dark}>Dietry Fibre</div>
+          <div className={styles.light}>0 g</div>
+        </div>
+        <div className={styles.poly}>
+          <div className={styles.dark}>Total Carbs</div>
+          <div className={styles.light}>35 g</div>
+        </div>
       </div>
       <div className={styles.second}></div>
       <div className={styles.third}></div>
