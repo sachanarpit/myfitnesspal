@@ -1,4 +1,5 @@
 import { Route, Switch, Link } from "react-router-dom";
+import IndexHome from "../components/Home-Page/Index";
 import { SignUpForm1 } from "../components/SignUp-Forms/Form1";
 import { SignUpForm2 } from "../components/SignUp-Forms/Form2";
 import { SignUpForm3 } from "../components/SignUp-Forms/Form3";
@@ -10,9 +11,8 @@ export const Routes = () => {
     <>
       <Switch>
         <Route exact path="/">
-          <Link to="/signup-1">SignUp 1</Link>
+          <IndexHome next={"/signup-1"} />
         </Route>
-
         <Route exact path="/signup-1">
           <SignUpForm1 next={"/signup-2"} />
         </Route>
@@ -28,7 +28,6 @@ export const Routes = () => {
         <Route exact path="/signup-5">
           <SignUpForm5 next={"/signup-1"} prev={"/signup-4"} />
         </Route>
-
         <Route path="/products/:id">"new product"</Route>
         <Route>
           <h1>Page not found</h1>
