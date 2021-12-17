@@ -6,8 +6,8 @@ import { Test } from "./routes/Test";
 function App() {
   return (
     <div className="App">
-      <Routes />
-      {/* <Test /> */}
+      {/* <Routes /> */}
+      <Test />
       {/* <LoaderComp /> */}
     </div>
   );

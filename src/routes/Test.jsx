@@ -10,7 +10,7 @@ import Connect from "../components/Home-Page/Connect/Connect";
 // import { SignUpForm5 } from "../components/SignUp-Forms/Form5/index";
 // import { SignUpForm7 } from "../components/SignUp-Forms/Form7/index";
 // import { SignUpForm8 } from "../components/SignUp-Forms/Form8/index";
- import {SignUpForm9 }  from "../components/SignUp-Forms/Form9/index"
+// import {SignUpForm9 }  from "../components/SignUp-Forms/Form9/index"
 // import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
 import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
 import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
@@ -63,10 +63,10 @@ export const Test = () => {
     <>
 
 
-      <SignUpForm9 /> 
+      <SignUpForm2 /> 
 
 
-      <img src="/loading.gif" alt="" />
+      {/* <img src="/loading.gif" alt="" /> */}
 
       {/* <RadioBtn />
       <br />
