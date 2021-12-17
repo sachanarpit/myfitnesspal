@@ -1,5 +1,5 @@
 import "./App.css";
-import { Index } from "./components/ConfirmBreakfast/Index";
+import { Index } from "./components/DailySummary/Index";
 import { Routes } from "./routes/Router";
 import { Test } from "./routes/Test";
 
