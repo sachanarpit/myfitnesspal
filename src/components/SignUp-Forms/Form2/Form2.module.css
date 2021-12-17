@@ -15,20 +15,14 @@
 
 
 .ques {
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
 
-  position: absolute;
-  width: 22.91vw;
-  height: 7.83vh;
   margin-left: 4.98vw;
   margin-top: 48px;
 }
 
 .option1 {
   margin-left: 4.98vw;
-  margin-top: 21.68vh;
+  margin-top: 4.70vh;
 }
 
 
