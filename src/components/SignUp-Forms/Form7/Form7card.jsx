@@ -1,6 +1,6 @@
 
 
-import { Body2, Heading6 } from "../../GlobalComp/Heading.Pages.Signup"
+import { Body2, Heading6,FooterText } from "../../GlobalComp/Heading.Pages.Signup"
 import { WideInput } from "../../GlobalComp/Input.Pages.SignUp"
 import { ProgressBar6 } from "../../GlobalComp/ProgressBar.Pages"
 import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button"
@@ -49,14 +49,25 @@ return (
         <Body2>We will never post anything without permission.</Body2>
     </div>
 
-    <div className={styles.last_span}>
+    {/* <div className={styles.last_span}>
     <span className={styles.span_main}><span>This site is protected by reCAPTCHA and the Google </span><span className={styles.span}>Privacy Policy</span>
     </span>
     <p>
     <span> and </span>
     <span className={styles.span}>Terms</span><span> apply </span>
     </p>
-    </div>
+     
+    </div> */}
+
+<div>
+          <FooterText style={{ marginLeft: "5.5vw" }}>
+          This site is protected by reCAPTCHA and the Google <span className={styles.span}> Privacy Policy</span>
+            <br />
+            <span> and </span>
+    <span className={styles.span}>Terms</span><span> apply </span>
+          </FooterText>
+        </div>
+
     </div>
     </>
 )
