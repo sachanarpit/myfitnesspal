@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Body2, Heading6 } from "../../GlobalComp/Heading.Pages.Signup";
 import { WideInput } from "../../GlobalComp/Input.Pages.SignUp";
 import { ProgressBar7 } from "../../GlobalComp/ProgressBar.Pages";
@@ -8,7 +9,7 @@ import {
 } from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form8.module.css";
 
-export const Form8card = () => {
+export const Form8card = ({ prev, next }) => {
   return (
     <>
       <div className={styles.card8main}>
@@ -20,8 +21,12 @@ export const Form8card = () => {
         <div className={styles.email}>
           <WideInput placeholder={""} typeInput={"text"}></WideInput>
         </div>
-        <SignUpBackButton className={styles.back}>Back</SignUpBackButton>
-        <SignUpNextButton className={styles.next}>Next</SignUpNextButton>
+        <Link to={prev}>
+          <SignUpBackButton className={styles.back}>Back</SignUpBackButton>
+        </Link>
+        <Link to={next}>
+          <SignUpNextButton className={styles.next}>Next</SignUpNextButton>
+        </Link>
       </div>
     </>
   );

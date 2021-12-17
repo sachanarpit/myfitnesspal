@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Body2,
   Heading6,
@@ -8,7 +9,7 @@ import { ProgressBar6 } from "../../GlobalComp/ProgressBar.Pages";
 import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form7.module.css";
 
-export const Form7card = () => {
+export const Form7card = ({ prev, next }) => {
   return (
     <>
       <div className={styles.card7main}>
@@ -40,7 +41,9 @@ export const Form7card = () => {
           </span>
         </div>
         <div className={styles.cont}>
-          <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+          <Link to={next}>
+            <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+          </Link>
         </div>
         <div className={styles.span2}>
           <span className={styles.span_main}>
