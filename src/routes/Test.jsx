@@ -8,6 +8,7 @@ import Connect from "../components/Home-Page/Connect/Connect";
 // import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
 // import { SignUpForm4 } from "../components/SignUp-Forms/Form4/index";
 // import { SignUpForm5 } from "../components/SignUp-Forms/Form5/index";
+import { SignUpForm6 } from "../components/SignUp-Forms/Form6/index";
 // import { SignUpForm7 } from "../components/SignUp-Forms/Form7/index";
 // import { SignUpForm8 } from "../components/SignUp-Forms/Form8/index";
 // import {SignUpForm9 }  from "../components/SignUp-Forms/Form9/index"
@@ -65,7 +66,7 @@ export const Test = () => {
     <>
 
 
-      <SignUpForm10 /> 
+      <SignUpForm6 /> 
 
 
       {/* <img src="/loading.gif" alt="" /> */}
