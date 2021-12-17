@@ -5,20 +5,18 @@
 
   background-color: #ffffff;
 
-
   box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25),
     8px 0px 20px rgba(135, 135, 135, 0.25);
   border-radius: 8px;
   /* border: 1px solid blue; */
 }
 
-
 .ques2 {
   margin-left: 4.98vw;
   margin-top: 10.24vh;
   /* border: 1px solid blue; */
 }
-.male_div{
+.male_div {
   margin-top: 2.4vh;
   display: flex;
 }
@@ -26,7 +24,6 @@
   width: 5.33vw;
   height: 2.71vh;
   margin-left: 4.98vw;
-
 }
 .female {
   width: 5.33vw;
@@ -41,19 +38,18 @@
 }
 .hintdetail {
   display: inline;
-  margin-left: 0.390vw;
+  margin-left: 0.39vw;
   font-family: "NeueL";
   color: blue;
 }
 .born,
 .live {
-
   margin-left: 4.98vw;
   margin-top: 5.52vh;
   /* border: 1px solid blue; */
 }
 .live {
-  margin-top: 4.70vh;
+  margin-top: 4.7vh;
 }
 .date,
 .country,
@@ -77,7 +73,7 @@
 }
 .zipcode {
   margin-top: 1.66vh;
-  margin-left: 1.10vw;
+  margin-left: 1.1vw;
 }
 
 .descrip {
@@ -88,17 +84,11 @@
 }
 
 .back4 {
- 
   margin-left: 4.98vw;
-  margin-top: 3.20vh;
-
+  margin-top: 3.2vh;
 }
 
 .next4 {
- 
   margin-left: 1.04vw;
-  margin-top: 3.20vh;
-
- 
+  margin-top: 3.2vh;
 }
-

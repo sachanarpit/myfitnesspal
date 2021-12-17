@@ -5,7 +5,7 @@
   /* margin-top: 7.22vh; */
   /* margin-top: 7.22vh; */
   /* Primary colours/Snow */
-  margin:7.22vh auto auto auto;
+  margin: 7.22vh auto auto auto;
   background-color: #ffffff;
   /* Login cards shadow */
 
@@ -15,21 +15,18 @@
   /* border: 1px solid blue; */
 }
 
-
-
 .ques1 {
   margin-left: 4.98vw;
   margin-top: 10.24vh;
   /* border: 1px solid blue; */
 }
 .para1 {
- 
   margin-left: 4.98vw;
   margin-top: 4px;
   /* border: 1px solid blue; */
 }
 
-.box1{
+.box1 {
   margin-left: 4.98vw;
   margin-top: 5.42vh;
 }
@@ -39,20 +36,15 @@
   margin-left: 8px;
 }
 .box2 {
-  margin-top: 1.10vh;
+  margin-top: 1.1vh;
 }
 
 .back3 {
-
   margin-left: 4.98vw;
   margin-top: 6.92vh;
-  
 }
 
 .next3 {
-  
   margin-left: 1.04vw;
   margin-top: 6.92vh;
-
 }
-

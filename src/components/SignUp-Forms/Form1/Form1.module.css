@@ -1,9 +1,8 @@
 .card1main {
   width: 35.77vw;
-  height: 75.90vh;
-  
-  margin:7.22vh auto auto auto;
+  height: 75.9vh;
 
+  margin: 7.22vh auto auto auto;
 
   background-color: #ffffff;
   box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25),
@@ -14,13 +13,12 @@
 
 .ques {
   position: absolute;
-margin-left: 4.98vw;
-margin-top: 24.65vh;
+  margin-left: 4.98vw;
+  margin-top: 24.65vh;
   /* margin-top: 24.65vh; */
   /* border: 1px solid blue; */
 }
 .butt {
-  
   margin-top: 45.01vh;
   /* margin-left: 4.98vw; */
 

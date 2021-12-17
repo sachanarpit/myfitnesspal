@@ -1,10 +1,10 @@
 .card2main {
   width: 35.77vw;
   height: 68.22vh;
- 
-  margin:7.22vh auto auto auto;
+
+  margin: 7.22vh auto auto auto;
   /* Primary colours/Snow */
-  
+
   background-color: #ffffff;
   box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25),
     8px 0px 20px rgba(135, 135, 135, 0.25);
@@ -12,36 +12,28 @@
   /* border: 1px solid blue; */
 }
 
-
-
 .ques {
-
   margin-left: 4.98vw;
   margin-top: 48px;
 }
 
 .option1 {
   margin-left: 4.98vw;
-  margin-top: 4.70vh;
+  margin-top: 4.7vh;
 }
 
-
-.option2,.option3 {
+.option2,
+.option3 {
   margin-left: 4.98vw;
   margin-top: 0.55vh;
 }
 
-
 .back {
- 
   margin-left: 4.98vw;
-  margin-top: 4.70vh;
- 
+  margin-top: 4.7vh;
 }
 
 .next {
- 
   margin-left: 1.04vw;
-  margin-top: 4.70vh;
+  margin-top: 4.7vh;
 }
-
