@@ -63,7 +63,7 @@ export const Test = () => {
     <>
 
 
-      <SignUpForm5 /> 
+      <SignUpForm1 /> 
 
 
       {/* <img src="/loading.gif" alt="" /> */}

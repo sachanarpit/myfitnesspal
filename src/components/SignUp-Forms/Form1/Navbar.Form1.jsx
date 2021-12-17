@@ -10,9 +10,6 @@ export const Form1Navbar = () => {
             <img src="logo.svg" alt="logo" />
           </Link>
         </div>
-        {/* <div className={styles.loginDiv}>
- Login
-</div> */}
       </div>
     </div>
   );

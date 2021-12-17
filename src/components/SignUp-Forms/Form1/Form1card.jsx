@@ -7,20 +7,21 @@ export const Form1card = ({ next }) => {
   return (
     <>
       <div className={styles.card1main}>
-        <div className={styles.text}>
-          <center>
+        <div className={styles.ques}>
+            <center>
             <Heading6>
-              Welcome! Just a few quick questions so we can customize
+              Welcome! Just a few quick <br/>questions so we can customize
+              <br/>
               MyfitnessPal for you
             </Heading6>
-          </center>
+            </center>
         </div>
-        <div className={styles.butt}>
-          <center>
+        <div>
             <Link to={next}>
-              <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+              <center>
+              <SignUpContinueButton className={styles.butt}>CONTINUE</SignUpContinueButton>
+              </center>
             </Link>
-          </center>
         </div>
       </div>
     </>

@@ -1,11 +1,9 @@
 .card1main {
-  position: absolute;
-  width: 29.16vw;
-  height: 82.53vh;
-  margin-left: calc(50% - 448px / 2);
-  margin-top: 7.22vh;
+  width: 35.77vw;
+  height: 75.90vh;
+  
+  margin:7.22vh auto auto auto;
 
-  /* Primary colours/Snow */
 
   background-color: #ffffff;
   box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25),
@@ -14,16 +12,17 @@
   /* border: 1px solid blue; */
 }
 
-.text {
-  position: static;
-  text-align: center;
-  width: 22.91vw;
-  height: 14.45vh;
-  margin-top: 178px;
+.ques {
+  position: absolute;
+margin-left: 4.98vw;
+margin-top: 24.65vh;
+  /* margin-top: 24.65vh; */
   /* border: 1px solid blue; */
 }
 .butt {
-  margin-top: 10.69vh;
+  
+  margin-top: 45.01vh;
+  /* margin-left: 4.98vw; */
 
   /* Primary colours/Ocean eye */
 }
