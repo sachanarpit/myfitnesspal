@@ -7,11 +7,11 @@ import styles from "./Form9.module.css"
 
 
 
-export const SignUpForm9 = () => {
+export const SignUpForm9 = ({prev,next}) => {
   return (
     <div>
      <Form2Navbar />
-     <Form9card />
+     <Form9card prev={prev} next={next} />
     </div>
   );
 };

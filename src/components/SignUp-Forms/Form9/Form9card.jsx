@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Body1,
   Body2,
@@ -10,7 +11,7 @@ import { ProgressBar8 } from "../../GlobalComp/ProgressBar.Pages";
 import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form9.module.css";
 
-export const Form9card = () => {
+export const Form9card = ({next}) => {
   return (
     <>
       <div className={styles.card9main}>
@@ -51,7 +52,9 @@ export const Form9card = () => {
           </FooterText>
         </div>
         <div className={styles.cont}>
+        <Link to={next}>
           <SignUpContinueButton>EXPLORE MYFITNESSPAL</SignUpContinueButton>
+          </Link>
         </div>
       </div>
     </>

@@ -7,11 +7,11 @@ import { Form7card } from "./Form7card";
 
 
 
-export const SignUpForm7 = () => {
+export const SignUpForm7 = ({prev,next}) => {
   return (
     <div>
      <Form2Navbar />
-     <Form7card />
+     <Form7card prev={prev} next={next}/>
     </div>
   );
 };

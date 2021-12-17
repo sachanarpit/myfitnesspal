@@ -1,12 +1,13 @@
 
 
+import { Link } from "react-router-dom"
 import { Body2, Heading6,FooterText } from "../../GlobalComp/Heading.Pages.Signup"
 import { WideInput } from "../../GlobalComp/Input.Pages.SignUp"
 import { ProgressBar6 } from "../../GlobalComp/ProgressBar.Pages"
 import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button"
 import styles from "./Form7.module.css"
 
-export const Form7card=()=>{
+export const Form7card=({next})=>{
 return (
     <>
     <div className={styles.card7main}>
@@ -33,7 +34,9 @@ return (
         <span className={styles.span_main}><span>I agree to MyFitnessPal </span><span className={styles.span}>Terms & Condition</span> <span>and </span><span className={styles.span}>Privacy Policy.</span></span>
     </div>
     <div className={styles.cont}>
+    <Link to={next}>
         <SignUpContinueButton >CONTINUE</SignUpContinueButton>
+        </Link>
     </div>
     <div className={styles.span2}>
         <span className={styles.span_main}><span>By signing up for MyFitnessPal, you are agreeing to our </span><span className={styles.span}>Privacy </span></span>
