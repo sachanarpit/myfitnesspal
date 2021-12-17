@@ -12,6 +12,7 @@ import Connect from "../components/Home-Page/Connect/Connect";
 // import { SignUpForm8 } from "../components/SignUp-Forms/Form8/index";
 // import {SignUpForm9 }  from "../components/SignUp-Forms/Form9/index"
 // import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
+import { SignUpForm10 } from "../components/SignUp-Forms/Form10";
 import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
 import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
 import { SignUpForm4 } from "../components/SignUp-Forms/Form4/index";
@@ -58,12 +59,13 @@ import {
   WideInput,
 } from "../components/GlobalComp/Input.Pages.SignUp";
 
+
 export const Test = () => {
   return (
     <>
 
 
-      <SignUpForm2 /> 
+      <SignUpForm10 /> 
 
 
       {/* <img src="/loading.gif" alt="" /> */}
