@@ -10,7 +10,7 @@ import styles from "./Form2.module.css";
 
 export const Form2card = ({ next, prev }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card2main}>
         <ProgressBar1></ProgressBar1>
 
@@ -31,6 +31,6 @@ export const Form2card = ({ next, prev }) => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };

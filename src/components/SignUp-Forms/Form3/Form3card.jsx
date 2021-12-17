@@ -10,7 +10,7 @@ import { SelectForm3 } from "./Select.Form3";
 
 export const Form3card = ({ prev, next }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card3main}>
         <ProgressBar2></ProgressBar2>
         <div className={styles.ques1}>
@@ -68,6 +68,6 @@ export const Form3card = ({ prev, next }) => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };

@@ -5,7 +5,7 @@ import styles from "./Form1.module.css";
 
 export const Form1card = ({ next }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card1main}>
         <div className={styles.ques}>
           <center>
@@ -27,6 +27,6 @@ export const Form1card = ({ next }) => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };
