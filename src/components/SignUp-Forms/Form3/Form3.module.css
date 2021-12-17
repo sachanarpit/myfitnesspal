@@ -1,12 +1,11 @@
 .card3main {
-  position: absolute;
-  width: 31.77vw;
+  width: 35.77vw;
   height: 114.9vh;
-  margin-left: calc(50% - 488px / 2);
+  /* margin-left: calc(50% - 488px / 2); */
   /* margin-top: 7.22vh; */
-  margin-top: 7.22vh;
+  /* margin-top: 7.22vh; */
   /* Primary colours/Snow */
-
+  margin:7.22vh auto auto auto;
   background-color: #ffffff;
   /* Login cards shadow */
 
@@ -16,62 +15,23 @@
   /* border: 1px solid blue; */
 }
 
-.rect2 {
-  width: 122px;
-  height: 8.02px;
-  position: absolute;
-  left: 0%;
-  right: 75%;
-  top: 0%;
-  bottom: 0%;
 
-  /* Primary colours/Ocean eye */
-
-  background-color: #0066ee;
-  border-radius: 8px 0px 0px 0px;
-}
 
 .ques1 {
-  position: static;
-  width: 25.91vw;
-  height: 9.63vh;
-  margin-left: 4.42vw;
+  margin-left: 4.98vw;
   margin-top: 10.24vh;
   /* border: 1px solid blue; */
 }
 .para1 {
-  position: static;
-  width: 24.26vw;
-  height: 3.31vh;
-  margin-left: 4.42vw;
+ 
+  margin-left: 4.98vw;
   margin-top: 4px;
-  font-family: "NeueSB";
   /* border: 1px solid blue; */
 }
-/* .optionbox{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    gap: 10px;
- 
-} */
-.box1,
-.box2,
-.box3,
-.box4 {
-  position: absolute;
-  width: 22.91vw;
-  height: 14.15vh;
-  margin-left: 3.93vw;
+
+.box1{
+  margin-left: 4.98vw;
   margin-top: 5.42vh;
-
-  /* Primary colours/Snow */
-
-  background-color: #ffffff;
-  /* Primary colours/Ocean eye */
-
-  border: 1px solid #0066ee;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 .body1 {
   margin-bottom: 0px;
@@ -79,59 +39,20 @@
   margin-left: 8px;
 }
 .box2 {
-  margin-top: 20.78vh;
-}
-.box3 {
-  margin-top: 36.14vh;
-}
-.box4 {
-  margin-top: 51.5vh;
-}
-.back1 {
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-
-  position: absolute;
-  width: 10.93vw;
-  height: 6.77vh;
-  margin-left: 4.42vw;
-  margin-top: 73.19vh;
-  background-color: #ffffff;
-  /* Primary colours/Ocean eye */
-  font-family: "NeueB";
-  color: #0066ee;
-  border: 1px solid #0066ee;
-  box-sizing: border-box;
-  border-radius: 4px;
-  transition: 0.3s ease-out;
+  margin-top: 1.10vh;
 }
 
-.next1 {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
+.back3 {
 
-  position: absolute;
-  width: 10.93vw;
-  height: 6.77vh;
-  margin-left: 16.4vw;
-  margin-top: 73.19vh;
+  margin-left: 4.98vw;
+  margin-top: 6.92vh;
+  
+}
 
-  /* Primary colours/Ocean eye */
-  font-family: "NeueB";
-  color: #ffffff;
-  background-color: #0066ee;
-  border-radius: 4px;
-  transition: 0.3s ease-out;
+.next3 {
+  
+  margin-left: 1.04vw;
+  margin-top: 6.92vh;
+
 }
-.back1:hover {
-  background-color: #005bd4;
-  border: 1px solid #005bd4;
-  color: white;
-}
-.next1:hover {
-  background-color: #005bd4;
-  border: 1px solid #005bd4;
-  color: white;
-}
+
