@@ -1,10 +1,8 @@
 .card2main {
-  position: absolute;
-  width: 31.77vw;
+  width: 35.77vw;
   height: 68.22vh;
-  margin-left: calc(50% - 488px / 2);
-  /* margin-top: 7.22vh; */
-  margin-top: 0px;
+
+  margin: 7.22vh auto auto auto;
   /* Primary colours/Snow */
 
   background-color: #ffffff;
@@ -14,124 +12,28 @@
   /* border: 1px solid blue; */
 }
 
-.rect {
-  width: 61px;
-  height: 8px;
-  position: absolute;
-  margin-left: 0%;
-  margin-right: 87.5%;
-  margin-top: 0%;
-  margin-bottom: 0%;
-
-  /* Primary colours/Ocean eye */
-
-  background-color: #0066ee;
-  border-radius: 8px 0px 0px 0px;
-}
-
 .ques {
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-
-  position: absolute;
-  width: 22.91vw;
-  height: 7.83vh;
-  margin-left: 4.42vw;
+  margin-left: 4.98vw;
   margin-top: 48px;
 }
-/* .optionbox{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    gap: 10px;
- 
-} */
-.option1,
+
+.option1 {
+  margin-left: 4.98vw;
+  margin-top: 4.7vh;
+}
+
 .option2,
 .option3 {
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
-
-  position: absolute;
-  width: 22.91vw;
-  height: 8.13vh;
-
-  margin-left: 4.42vw;
-  margin-top: 21.68vh;
-
-  /* Primary colours/Snow */
-  font-family: "NeueSB";
-  align-items: center;
-  text-align: center;
-  background-color: #ffffff;
-  /* CHARCOAL 40 */
-
-  border: 1px solid rgba(34, 38, 40, 0.4);
-  box-sizing: border-box;
-  border-radius: 4px;
-  transition: 0.15s ease-out;
-}
-.option1:focus,
-.option2:focus,
-.option3:focus {
-  background-color: white;
-  border: 1px solid #0066ee;
-  color: #0066ee;
-}
-
-.option2 {
-  margin-top: 30.42vh;
-}
-.option3 {
-  margin-top: 39.15vh;
+  margin-left: 4.98vw;
+  margin-top: 0.55vh;
 }
 
 .back {
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-
-  position: absolute;
-  width: 10.93vw;
-  height: 6.77vh;
-  margin-left: 4.42vw;
-  margin-top: 54.21vh;
-  background-color: #ffffff;
-  /* Primary colours/Ocean eye */
-  font-family: "NeueB";
-  color: #0066ee;
-  border: 1px solid #0066ee;
-  box-sizing: border-box;
-  border-radius: 4px;
-  transition: 0.3s ease-out;
+  margin-left: 4.98vw;
+  margin-top: 4.7vh;
 }
 
 .next {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-
-  position: absolute;
-  width: 10.93vw;
-  height: 6.77vh;
-  margin-left: 16.4vw;
-  margin-top: 54.21vh;
-
-  /* Primary colours/Ocean eye */
-  font-family: "NeueB";
-  color: #ffffff;
-  background-color: #0066ee;
-  border-radius: 4px;
-  transition: 0.3s ease-out;
-}
-.back:hover {
-  background-color: #005bd4;
-  border: 1px solid #005bd4;
-  color: white;
-}
-.next:hover {
-  background-color: #005bd4;
-  border: 1px solid #005bd4;
-  color: white;
+  margin-left: 1.04vw;
+  margin-top: 4.7vh;
 }

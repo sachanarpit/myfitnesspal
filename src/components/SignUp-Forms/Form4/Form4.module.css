@@ -1,90 +1,63 @@
 .card4main {
-  position: absolute;
-  width: 488px;
-  height: 763px;
-  margin-left: calc(50% - 488px / 2);
-  margin-top: 7.22vh;
-
-  /* Primary colours/Snow */
+  width: 35.77vw;
+  height: 105.67vh;
+  margin: 7.22vh auto auto auto;
 
   background-color: #ffffff;
-  /* Login cards shadow */
 
   box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25),
     8px 0px 20px rgba(135, 135, 135, 0.25);
   border-radius: 8px;
-  border: 1px solid blue;
-}
-
-.rect3 {
-  width: 183px;
-  height: 8px;
-  position: absolute;
-  left: 0%;
-  right: 62.5%;
-  top: 0%;
-  bottom: 0%;
-
-  /* Primary colours/Ocean eye */
-
-  background-color: #0066ee;
-  border-radius: 8px 0px 0px 0px;
+  /* border: 1px solid blue; */
 }
 
 .ques2 {
-  position: static;
-  width: 22.91vw;
-  height: 15.66vh;
-  margin-left: 4.42vw;
+  margin-left: 4.98vw;
   margin-top: 10.24vh;
   /* border: 1px solid blue; */
 }
+.male_div {
+  margin-top: 2.4vh;
+  display: flex;
+}
 .male {
-  position: absolute;
   width: 5.33vw;
   height: 2.71vh;
-  margin-left: 4.42vw;
-  margin-top: 2.4vh;
+  margin-left: 4.98vw;
 }
 .female {
-  position: absolute;
   width: 5.33vw;
   height: 2.71vh;
-  margin-left: 10.67vw;
-  margin-top: 2.4vh;
+  margin-left: 0.91vw;
 }
 .hint {
-  margin-left: 4.36vw;
-  margin-top: 7.53vh;
+  margin-left: 4.98vw;
+  margin-top: 2.91vh;
   font-size: 14px;
   color: blue;
 }
 .hintdetail {
   display: inline;
-  margin-left: 6px;
-  font-size: 13px;
+  margin-left: 0.39vw;
+  font-family: "NeueL";
   color: blue;
 }
 .born,
 .live {
-  position: absolute;
-  width: 22.91vw;
-  height: 6.02vh;
-  margin-left: 4.42vw;
+  margin-left: 4.98vw;
   margin-top: 5.52vh;
   /* border: 1px solid blue; */
 }
 .live {
-  margin-top: 26.2vh;
+  margin-top: 4.7vh;
 }
 .date,
 .country,
 .zipcode {
-  position: absolute;
   width: 10.93vw;
   height: 8.13vh;
-  margin-left: 4.42vw;
-  margin-top: 12.8vh;
+  margin-left: 4.98vw;
+  margin-top: 1.66vh;
 
   /* Primary colours/Snow */
 
@@ -96,73 +69,26 @@
   border-radius: 4px;
 }
 .country {
-  margin-top: 34.63vh;
+  margin-top: 1.66vh;
 }
 .zipcode {
-  margin-top: 34.63vh;
-  margin-left: 16.4vw;
+  margin-top: 1.66vh;
+  margin-left: 1.1vw;
 }
-/* .optionbox{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    gap: 10px;
- 
-} */
+
 .descrip {
-  position: absolute;
-  width: 22.39vw;
-  height: 6.62vh;
-  margin-left: 4.42vw;
-  margin-top: 44.57vh;
+  margin-left: 4.98vw;
+  margin-top: 0.78vh;
 
   /* border: 1px solid blue; */
 }
 
-.back2 {
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-
-  position: absolute;
-  width: 10.93vw;
-  height: 6.77vh;
-  margin-left: 4.42vw;
-  margin-top: 57.22vh;
-  background-color: #ffffff;
-  /* Primary colours/Ocean eye */
-  font-family: "NeueB";
-  color: #0066ee;
-  border: 1px solid #0066ee;
-  box-sizing: border-box;
-  border-radius: 4px;
-  transition: 0.3s ease-out;
+.back4 {
+  margin-left: 4.98vw;
+  margin-top: 3.2vh;
 }
 
-.next2 {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-
-  position: absolute;
-  width: 10.93vw;
-  height: 6.77vh;
-  margin-left: 16.4vw;
-  margin-top: 57.22vh;
-
-  /* Primary colours/Ocean eye */
-  font-family: "NeueB";
-  color: #ffffff;
-  background-color: #0066ee;
-  border-radius: 4px;
-  transition: 0.3s ease-out;
-}
-.back2:hover {
-  background-color: #005bd4;
-  border: 1px solid #005bd4;
-  color: white;
-}
-.next2:hover {
-  background-color: #005bd4;
-  border: 1px solid #005bd4;
-  color: white;
+.next4 {
+  margin-left: 1.04vw;
+  margin-top: 3.2vh;
 }

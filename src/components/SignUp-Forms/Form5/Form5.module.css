@@ -1,146 +1,41 @@
 .card5main {
-  position: absolute;
-  width: 31.77vw;
+  width: 35.77vw;
   height: 71.98vh;
-  margin-left: calc(50% - 488px / 2);
-  margin-top: 7.22vh;
 
-  /* Primary colours/Snow */
+  margin: 7.22vh auto auto auto;
 
   background-color: #ffffff;
   box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25),
     8px 0px 20px rgba(135, 135, 135, 0.25);
   border-radius: 8px;
-  border: 1px solid blue;
-}
-
-.rect3 {
-  width: 244px;
-  height: 8px;
-  position: absolute;
-  left: 0%;
-  right: 50%;
-  top: 0%;
-  bottom: 0%;
-
-  /* Primary colours/Ocean eye */
-
-  background-color: #0066ee;
-  border-radius: 8px 0px 0px 0px;
 }
 
 .ques5 {
-  justify-content: center;
-  align-items: center;
-
-  position: absolute;
-  width: 22.91vw;
-  height: 7.83vh;
-  margin-left: 4.42vw;
+  margin-left: 4.98vw;
   margin-top: 7.22vh;
-  /* border: 1px solid blue; */
 }
-/* .optionbox{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    gap: 10px;
- 
-} */
+
 .para5 {
-  position: absolute;
-  width: 22.91vw;
-  height: 6.62vh;
-  margin-left: 4.42vw;
-  margin-top: 15.06vh;
+  margin-left: 4.98vw;
+  margin-top: 1.38vh;
   /* border: 1px solid blue; */
 }
 .boxbig {
-  position: absolute;
-  width: 22.91vw;
-  height: 11.44vh;
-  margin-left: 4.42vw;
-  margin-top: 25.3vh;
-  text-align: center;
-  align-items: center;
-  /* Primary colours/Snow */
-
-  background-color: #ffffff;
-  /* CHARCOAL 40 */
-
-  border: 1px solid rgba(34, 38, 40, 0.4);
-  box-sizing: border-box;
-  border-radius: 4px;
+  margin-left: 4.98vw;
+  margin-top: 3.32vh;
 }
 .boxsmall {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  align-items: center;
-  position: absolute;
-  width: 22.91vw;
-  height: 7.83vh;
-  margin-left: 4.42vw;
+  margin-left: 4.98vw;
 
-  margin-top: 37.95vh;
-  background-color: #ffffff;
-  /* CHARCOAL 40 */
-
-  border: 1px solid rgba(34, 38, 40, 0.4);
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-.boxbig:focus,
-.boxsmall:focus {
-  background-color: white;
-  border: 1px solid #0066ee;
-  color: #0066ee;
+  margin-top: 1.1vh;
 }
 
 .back5 {
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-
-  position: absolute;
-  width: 10.93vw;
-  height: 6.77vh;
-  margin-left: 4.42vw;
-  margin-top: 52.4vh;
-  background-color: #ffffff;
-  /* Primary colours/Ocean eye */
-  font-family: "NeueB";
-  color: #0066ee;
-  border: 1px solid #0066ee;
-  box-sizing: border-box;
-  border-radius: 4px;
-
-  transition: 0.3s ease-out;
+  margin-left: 4.98vw;
+  margin-top: 5.81vh;
 }
 
 .next5 {
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-
-  position: absolute;
-  width: 10.93vw;
-  height: 6.77vh;
-  margin-left: 16.4vw;
-  margin-top: 52.4vh;
-
-  /* Primary colours/Ocean eye */
-  font-family: "NeueB";
-  color: #ffffff;
-  background-color: #0066ee;
-  border-radius: 4px;
-}
-.back5:hover {
-  background-color: #005bd4;
-  border: 1px solid #005bd4;
-  color: white;
-}
-.next5:hover {
-  background-color: #005bd4;
-  border: 1px solid #005bd4;
-  color: white;
+  margin-left: 1.04vw;
+  margin-top: 5.81vh;
 }

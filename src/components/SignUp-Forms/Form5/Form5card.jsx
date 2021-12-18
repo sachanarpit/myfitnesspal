@@ -1,12 +1,18 @@
 import { Link } from "react-router-dom";
 import { Body2, Heading6 } from "../../GlobalComp/Heading.Pages.Signup";
+import { ProgressBar4 } from "../../GlobalComp/ProgressBar.Pages";
+import {
+  GoalBtnSignUp,
+  SignUpBackButton,
+  SignUpNextButton,
+} from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form5.module.css";
 
 export const Form5card = ({ next, prev }) => {
   return (
     <>
       <div className={styles.card5main}>
-        <div className={styles.rect3}></div>
+        <ProgressBar4></ProgressBar4>
 
         <div className={styles.ques5}>
           <Heading6>What is your weekly goal ?</Heading6>
@@ -17,19 +23,23 @@ export const Form5card = ({ next, prev }) => {
             maintain.Slow and steady is best!
           </Body2>
         </div>
+        <div className={styles.boxbig}>
+          <GoalBtnSignUp style={{ height: "5.52vw" }}>
+            Gain 0.25 Weight weekly <br />
+            (Recommended)
+          </GoalBtnSignUp>
+        </div>
 
-        <button className={styles.boxbig}>
-          Gain 0.25 Weight weekly (Recommended)
-        </button>
-
-        <button className={styles.boxsmall}>Gain 0.5 Weight weekly</button>
+        <div className={styles.boxsmall}>
+          <GoalBtnSignUp>Gain 0.5 Weight weekly</GoalBtnSignUp>
+        </div>
 
         <div>
           <Link to={prev}>
-            <button className={styles.back5}>Back</button>
+            <SignUpBackButton className={styles.back5}>Back</SignUpBackButton>
           </Link>
           <Link to={next}>
-            <button className={styles.next5}>Next</button>
+            <SignUpNextButton className={styles.next5}>Next</SignUpNextButton>
           </Link>
         </div>
       </div>

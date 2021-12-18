@@ -3,7 +3,16 @@ import NutritionFacts from "../components/Nutrition/NutritionFacts";
 import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
 import Connect from "../components/Home-Page/Connect/Connect";
 
+ //import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
+// import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
+// import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
+// import { SignUpForm4 } from "../components/SignUp-Forms/Form4/index";
+// import { SignUpForm5 } from "../components/SignUp-Forms/Form5/index";
+// import { SignUpForm7 } from "../components/SignUp-Forms/Form7/index";
+// import { SignUpForm8 } from "../components/SignUp-Forms/Form8/index";
+// import {SignUpForm9 }  from "../components/SignUp-Forms/Form9/index"
 // import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
+import { SignUpForm10 } from "../components/SignUp-Forms/Form10";
 import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
 import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
 import { SignUpForm4 } from "../components/SignUp-Forms/Form4/index";
@@ -50,9 +59,17 @@ import {
   WideInput,
 } from "../components/GlobalComp/Input.Pages.SignUp";
 
+
 export const Test = () => {
   return (
     <>
+
+
+      <SignUpForm10 /> 
+
+
+      {/* <img src="/loading.gif" alt="" /> */}
+
       {/* <RadioBtn />
       <br />
       <WeightInput placeholder={"ft"} /> <WeightInput placeholder={"lbs"} />
@@ -63,6 +80,7 @@ export const Test = () => {
       <WideInput placeholder={"Create a Username"} typeInput={"text"} /> <br />
       <br />
       <SelectForm3 /> */}
+
       {/* <SignUpForm2 /> */}
       {/* <SignUpForm3 /> */}
       {/* <SignUpForm4 />
@@ -119,9 +137,9 @@ export const Test = () => {
       {/* <NavbarWithoutLogin />
       <Hero />
       <Footer /> */}
-
+      {/* 
       <IndexHome />
-      <NutritionFacts />
+      <NutritionFacts /> */}
     </>
   );
 };

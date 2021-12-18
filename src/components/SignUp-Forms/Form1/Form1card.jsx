@@ -5,20 +5,28 @@ import styles from "./Form1.module.css";
 
 export const Form1card = ({ next }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card1main}>
-        <div className={styles.text}>
-          <Heading6>
-            Welcome! Just a few quick questions so we can customize MyfitnessPal
-            for you
-          </Heading6>
+        <div className={styles.ques}>
+          <center>
+            <Heading6>
+              Welcome! Just a few quick <br />
+              questions so we can customize
+              <br />
+              MyfitnessPal for you
+            </Heading6>
+          </center>
         </div>
-        <div className={styles.butt}>
+        <div>
           <Link to={next}>
-            <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+            <center>
+              <SignUpContinueButton className={styles.butt}>
+                CONTINUE
+              </SignUpContinueButton>
+            </center>
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };
