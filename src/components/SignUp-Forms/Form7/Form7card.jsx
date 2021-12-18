@@ -9,7 +9,7 @@ import { ProgressBar6 } from "../../GlobalComp/ProgressBar.Pages";
 import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form7.module.css";
 
-export const Form7card = ({ prev, next }) => {
+export const Form7card = ({ next }) => {
   return (
     <>
       <div className={styles.card7main}>

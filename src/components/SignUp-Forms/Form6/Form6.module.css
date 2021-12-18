@@ -1,0 +1,77 @@
+.card6main {
+    width: 35.77vw;
+    height: 118.97vh;
+    margin: 7.22vh auto 4.96vh auto;
+  
+    background-color: #ffffff;
+  
+  
+    box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25),
+      8px 0px 20px rgba(135, 135, 135, 0.25);
+    border-radius: 8px;
+    /* border: 1px solid blue; */
+  }
+  
+  
+  .ques2 {
+    margin-left: 5.98vw;
+    margin-top: 10.24vh;
+    /* border: 1px solid blue; */
+  }
+  .ques3 {
+    margin-left: 5.98vw;
+    margin-top: 6.17vh;
+    /* border: 1px solid blue; */
+  }
+ 
+.weight_div{
+    display: flex;
+    
+}
+  .ft{
+    margin-left: 5.98vw;
+    margin-top: 1.80vh;
+  }
+  .lbs{
+    margin-left: 5.98vw;
+    margin-top: 1.80vh;
+  }
+  .in {
+    margin-top: 1.80vh;
+    margin-left: 1.04vw;
+  }
+  .para{
+  margin-left: 5.98vw;
+  color: #0066EE;
+  margin-top: 8px;
+  }
+  
+  .descrip {
+    margin-left: 5.98vw;
+    margin-top: 0.78vh;
+  
+    /* border: 1px solid blue; */
+  }
+  .descrip2 {
+    margin-left: 5.98vw;
+    margin-top: 1.20vh;
+  
+    /* border: 1px solid blue; */
+  }
+  
+  .back6 {
+   
+    margin-left: 5.98vw;
+    margin-top: 2.71vh;
+  
+  }
+  
+  .next6 {
+   
+    margin-left: 1.04vw;
+    margin-top: 2.71vh;
+  
+   
+  }
+  
+  
