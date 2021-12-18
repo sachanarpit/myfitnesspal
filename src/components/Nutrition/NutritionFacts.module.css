@@ -1,6 +1,6 @@
 .main {
   width: 46.388888888888886vw;
-  height: 50.69708491761724vh;
+  min-height: 50.69708491761724vh;
   display: flex;
   justify-content: space-between;
   /* outline: red solid; */
@@ -132,14 +132,12 @@
 }
 .w {
   width: 45%;
-  cursor: pointer;
 }
 .w img {
   width: 100%;
 }
 .w1 {
   width: 75%;
-  cursor: pointer;
 }
 .w1 img {
   width: 100%;

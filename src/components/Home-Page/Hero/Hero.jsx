@@ -1,7 +1,9 @@
 import img from "../Utils/HERO.svg";
 import styles from "./Hero.module.css";
 import se from "../Utils/Sbar.png";
-function Hero() {
+import { Link } from "react-router-dom";
+
+function Hero({ next }) {
   return (
     <div className={styles.main}>
       <div className={styles.absolute}>Fitness starts with what you eat.</div>
@@ -9,7 +11,9 @@ function Hero() {
         Take control of your goals. Track calories, break down ingredients, and
         log activities with MyFitnessPal.
       </div>
-      <div className={styles.button}>START FOR FREE</div>
+      <Link to={next}>
+        <div className={styles.button}>START FOR FREE</div>
+      </Link>
       <div className={styles.cont}>
         <div className={styles.al}>Already have an account ?</div>
 
