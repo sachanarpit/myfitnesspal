@@ -55,6 +55,10 @@ const ItemLink = styled.th`
   font-size: 16px;
 `;
 
+const ItemDelete = styled.div`
+  background-color: white;
+`;
+
 export function TableDairy() {
   return (
     <TableSec className="table-responsive">
@@ -127,16 +131,19 @@ export function TableDairy() {
               <td></td>
             </tr>
 
-            <ItemRow className="table-secondary">
-              <ItemName>Poha, 1 cup</ItemName>
-              <td>158</td>
-              <td>158</td>
-              <td>158</td>
-              <td>158</td>
-              <td>158</td>
-              <td>158</td>
-              <td>158</td>
-              <td>158</td>
+            <ItemRow>
+              <ItemName className="table-secondary">Poha, 1 cup</ItemName>
+              <td className="table-secondary">158</td>
+              <td className="table-secondary">158</td>
+              <td className="table-secondary">158</td>
+              <td className="table-secondary">158</td>
+              <td className="table-secondary">158</td>
+              <td className="table-secondary">158</td>
+              <td className="table-secondary">158</td>
+              <td className="table-secondary">158</td>
+              <td>
+                <ItemDelete>❌</ItemDelete>
+              </td>
             </ItemRow>
             <tr>
               <div>
