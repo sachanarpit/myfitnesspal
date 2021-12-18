@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 61.1111111111%;
-  /* outline: yellowgreen solid; */
+  outline: yellowgreen solid;
   margin: auto;
   min-height: 278px;
 }
@@ -13,4 +13,9 @@
 .rec img {
   object-fit: cover;
   width: 100%;
+}
+.recepie {
+  width: 40%;
+  outline: solid pink;
+  margin: 60px auto;
 }
