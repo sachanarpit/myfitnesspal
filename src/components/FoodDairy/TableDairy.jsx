@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Body2 } from "../GlobalComp/Heading.Pages.Signup";
 
 const TableSec = styled.div`
   width: 942px;
-  height: 636px;
 `;
 
 const TableHead = styled.thead`
@@ -24,11 +24,42 @@ const MainHeaderHead = styled.th`
   text-align: left;
 `;
 
+const ItemTime = styled.th`
+  color: black;
+  font-family: "NeueB";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+`;
+
+const ItemName = styled.th`
+  font-family: "NeueT";
+  color: #222628;
+  font-size: 12px;
+  align-items: left;
+  text-align: left;
+`;
+const ItemRow = styled.tr`
+  padding-bottom: -40px;
+  align-items: center;
+  text-align: center;
+  font-family: "NeueSB";
+`;
+
+const ItemLink = styled.th`
+  text-decoration: none;
+  color: #0066ee;
+  font-family: "NeueL";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+`;
+
 export function TableDairy() {
   return (
     <TableSec className="table-responsive">
       <center>
-        <table className="table table-striped table-hover table-borderless">
+        <table className="table  table-hover table-borderless">
           <TableHead>
             <tr>
               <MainHeaderHead scope="col">FOODS</MainHeaderHead>
@@ -43,8 +74,8 @@ export function TableDairy() {
             </tr>
           </TableHead>
           <tbody>
-            <tr>
-              <th>BreakFast</th>
+            <tr className="table-secondary">
+              <ItemTime>BreakFast</ItemTime>
               <td></td>
               <td></td>
               <td></td>
@@ -55,22 +86,37 @@ export function TableDairy() {
               <td></td>
             </tr>
 
-            <tr className="table-active">
-              <td>hellofds</td>
-              <td>fdsfjksjaf</td>
-              <td>dfsafsa</td>
-              <td>fsdafas</td>
-              <td>fsdved</td>
-              <td>veaw</td>
-              <td>ewva</td>
-              <td>ewfv</td>
-              <td>efw</td>
+            <ItemRow className="table-secondary">
+              <ItemName>Poha, 1 cup</ItemName>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+            </ItemRow>
+            <tr>
+              <div>
+                <ItemLink>
+                  <Link style={{ textDecoration: "none" }}>Add Food</Link> |{" "}
+                  <Link style={{ textDecoration: "none" }}>QuickTool</Link>
+                </ItemLink>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </div>
             </tr>
-            <tr>Add Food | Quick Tool</tr>
           </tbody>
           <tbody>
-            <tr>
-              <th>BreakFast</th>
+            <tr className="table-secondary">
+              <ItemTime>BreakFast</ItemTime>
               <td></td>
               <td></td>
               <td></td>
@@ -81,22 +127,37 @@ export function TableDairy() {
               <td></td>
             </tr>
 
-            <tr className="table-active">
-              <td>hellofds</td>
-              <td>fdsfjksjaf</td>
-              <td>dfsafsa</td>
-              <td>fsdafas</td>
-              <td>fsdved</td>
-              <td>veaw</td>
-              <td>ewva</td>
-              <td>ewfv</td>
-              <td>efw</td>
+            <ItemRow className="table-secondary">
+              <ItemName>Poha, 1 cup</ItemName>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+            </ItemRow>
+            <tr>
+              <div>
+                <ItemLink>
+                  <Link style={{ textDecoration: "none" }}>Add Food</Link> |{" "}
+                  <Link style={{ textDecoration: "none" }}>QuickTool</Link>
+                </ItemLink>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </div>
             </tr>
-            <tr>Add Food | Quick Tool</tr>
           </tbody>
           <tbody>
-            <tr>
-              <th>BreakFast</th>
+            <tr className="table-secondary">
+              <ItemTime>BreakFast</ItemTime>
               <td></td>
               <td></td>
               <td></td>
@@ -107,22 +168,37 @@ export function TableDairy() {
               <td></td>
             </tr>
 
-            <tr className="table-active">
-              <td>hellofds</td>
-              <td>fdsfjksjaf</td>
-              <td>dfsafsa</td>
-              <td>fsdafas</td>
-              <td>fsdved</td>
-              <td>veaw</td>
-              <td>ewva</td>
-              <td>ewfv</td>
-              <td>efw</td>
+            <ItemRow className="table-secondary">
+              <ItemName>Poha, 1 cup</ItemName>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+            </ItemRow>
+            <tr>
+              <div>
+                <ItemLink>
+                  <Link style={{ textDecoration: "none" }}>Add Food</Link> |{" "}
+                  <Link style={{ textDecoration: "none" }}>QuickTool</Link>
+                </ItemLink>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </div>
             </tr>
-            <tr>Add Food | Quick Tool</tr>
           </tbody>
           <tbody>
-            <tr>
-              <th>BreakFast</th>
+            <tr className="table-secondary">
+              <ItemTime>BreakFast</ItemTime>
               <td></td>
               <td></td>
               <td></td>
@@ -133,46 +209,77 @@ export function TableDairy() {
               <td></td>
             </tr>
 
-            <tr className="table-active">
-              <td>hellofds</td>
-              <td>fdsfjksjaf</td>
-              <td>dfsafsa</td>
-              <td>fsdafas</td>
-              <td>fsdved</td>
-              <td>veaw</td>
-              <td>ewva</td>
-              <td>ewfv</td>
-              <td>efw</td>
+            <ItemRow className="table-secondary">
+              <ItemName>Poha, 1 cup</ItemName>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+            </ItemRow>
+            <tr>
+              <div>
+                <ItemLink>
+                  <Link style={{ textDecoration: "none" }}>Add Food</Link> |{" "}
+                  <Link style={{ textDecoration: "none" }}>QuickTool</Link>
+                </ItemLink>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </div>
             </tr>
-            <tr>Add Food | Quick Tool</tr>
           </tbody>
           <tbody>
+            <tr className="table-secondary">
+              <ItemTime>BreakFast</ItemTime>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <ItemRow className="table-secondary">
+              <ItemName>Poha, 1 cup</ItemName>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+              <td>158</td>
+            </ItemRow>
             <tr>
-              <th>BreakFast</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <div>
+                <ItemLink>
+                  <Link style={{ textDecoration: "none" }}>Add Food</Link> |{" "}
+                  <Link style={{ textDecoration: "none" }}>QuickTool</Link>
+                </ItemLink>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </div>
             </tr>
-
-            <tr className="table-active">
-              <td>hellofds</td>
-              <td>fdsfjksjaf</td>
-              <td>dfsafsa</td>
-              <td>fsdafas</td>
-              <td>fsdved</td>
-              <td>veaw</td>
-              <td>ewva</td>
-              <td>ewfv</td>
-              <td>efw</td>
-            </tr>
-            <tr>Add Food | Quick Tool</tr>
           </tbody>
-
+          <br />
+          <br />
           <tfoot className="table-bordered">
             <tr>
               <th>hello</th>
