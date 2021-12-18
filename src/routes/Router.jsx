@@ -33,6 +33,7 @@ export const Routes = () => {
         <Route exact path="/signup-5">
           <SignUpForm5 next={"/signup-6"} prev={"/signup-4"} />
         </Route>
+
         <Route exact path="/signup-6">
           <SignUpForm6 next={"/signup-7"} prev={"/signup-5"} />
         </Route>
