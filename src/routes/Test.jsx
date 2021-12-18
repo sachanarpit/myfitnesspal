@@ -120,7 +120,7 @@ export const Test = () => {
       <Hero />
       <Footer /> */}
 
-      <IndexHome />
+      {/* <IndexHome /> */}
       <NutritionFacts />
     </>
   );
