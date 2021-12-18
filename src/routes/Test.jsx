@@ -13,7 +13,7 @@ import { SignUpForm6 } from "../components/SignUp-Forms/Form6/index";
 // import { SignUpForm8 } from "../components/SignUp-Forms/Form8/index";
 // import {SignUpForm9 }  from "../components/SignUp-Forms/Form9/index"
 // import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
-import { SignUpForm10 } from "../components/SignUp-Forms/Form10";
+// import { SignUpForm10 } from "../components/SignUp-Forms/Toolpage";
 import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
 import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
 import { SignUpForm4 } from "../components/SignUp-Forms/Form4/index";
@@ -59,6 +59,7 @@ import {
   WeightInput,
   WideInput,
 } from "../components/GlobalComp/Input.Pages.SignUp";
+import { Landingtool } from "../components/Home-Page/Toolpage";
 
 
 export const Test = () => {
@@ -66,7 +67,7 @@ export const Test = () => {
     <>
 
 
-      <SignUpForm5 /> 
+      <Landingtool /> 
 
 
       {/* <img src="/loading.gif" alt="" /> */}
