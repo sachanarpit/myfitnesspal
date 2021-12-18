@@ -1,4 +1,4 @@
-import { Body1, Heading3 } from "../GlobalComp/Heading.Pages.Signup";
+import { Body1, Heading3 } from "../../GlobalComp/Heading.Pages.Signup";
 import styles from "./Recepie.module.css";
 import rec_1 from "./Utils/rec_1.svg";
 import rec_2 from "./Utils/rec_2.svg";
