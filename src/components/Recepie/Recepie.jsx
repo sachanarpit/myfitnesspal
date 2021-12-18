@@ -4,7 +4,6 @@ import rec_2 from "./Utils/rec_2.svg";
 
 function Recepie() {
   return (
-    <div>
       <div className={styles.main}>
         <div className={styles.rec}>
           <img src={rec_1} alt="rec_1" />
@@ -16,7 +15,6 @@ function Recepie() {
           <img src={rec_1} alt="rec_1" />
         </div>
       </div>
-    </div>
   );
 }
 
