@@ -1,0 +1,89 @@
+.main {
+  height: 620px;
+  width: 33.8888888889%;
+  /* outline: solid brown; */
+  margin: 10px auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 8px 0px 20px 0px rgba(135, 135, 135, 0.25);
+  box-shadow: -8px 0px 20px 0px rgba(135, 135, 135, 0.25);
+}
+.blue {
+  position: relative;
+  width: 100%;
+  height: 44.2903225%;
+  background-color: #0066ee;
+}
+.circle {
+  position: absolute;
+  width: 33.4821428571%;
+  height: 50.2988773874%;
+  /* outline: red solid; */
+  top: 63.0558390436%;
+  left: 34.2213114754%;
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+}
+.crown {
+  position: absolute;
+  width: 24.5535714286%;
+  height: 35.7194926374%;
+  /* outline: red solid; */
+  box-sizing: border-box;
+  left: 39%;
+  top: 70.3455314186%;
+}
+.crown img {
+  width: 100%;
+}
+.cross {
+  position: absolute;
+  width: 7.03125%;
+  height: 11.4812654906%;
+  /* outline: purple solid; */
+  right: 2.06473214286%;
+  top: 3.37148272343%;
+  cursor: pointer;
+}
+.cross img {
+  width: 100%;
+  height: 100%;
+}
+.white {
+  position: relative;
+  width: 100%;
+  height: 55.7096775%;
+  /* outline: pink solid; */
+}
+.reach {
+  position: absolute;
+  font-weight: 900;
+  top: 21.3054044671%;
+  left: 25.4464285714%;
+  font-size: 1.6666666666666667vw;
+  color: #0066ee;
+  font-family: "NeueSB";
+  font-style: black;
+}
+.body1 {
+  position: absolute;
+  left: 16.9642857143%;
+  bottom: 39.9259344983%;
+  width: 74.5535714286%;
+  height: 19.0950121514%;
+  text-align: center;
+}
+.button {
+  position: absolute;
+  width: 78.5714285714%;
+  height: 13.0193264668%;
+  left: 11%;
+  bottom: 16.491146858%;
+  cursor: pointer;
+}
+.button img {
+  width: 100%;
+  height: 100%;
+}

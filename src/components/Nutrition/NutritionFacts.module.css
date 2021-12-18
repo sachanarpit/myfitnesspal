@@ -1,6 +1,8 @@
 .main {
   width: 46.388888888888886vw;
-  height: 50.69708491761724vh;
+  min-height: 50.69708491761724vh;
+  display: flex;
+  justify-content: space-between;
   /* outline: red solid; */
   margin: 50px auto;
   background-color: rgba(255, 255, 255, 1);
@@ -10,4 +12,133 @@
   box-shadow: -8px 0px 20px 0px rgba(135, 135, 135, 0.25);
   box-sizing: border-box;
   padding: 1.6666666666666667vw;
+}
+.main * {
+  margin: 0;
+  padding: 0;
+}
+.first {
+  width: 11.319444444444445vw;
+  /* outline: solid blue; */
+  margin-right: 4%;
+}
+.second {
+  width: 15.902777777777779vw;
+  /* outline: red solid; */
+}
+.third {
+  width: 12.5vw;
+  /* outline: solid skyblue; */
+}
+.vdark {
+  font-weight: 900;
+  font-size: 1.6666666666666667vw;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueSB";
+}
+.pl {
+  font-weight: 600;
+  font-size: 1.1111111111111112vw;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueSB";
+  line-height: 2.788339670468948vh;
+}
+.poha {
+  display: flex;
+  justify-content: space-between;
+  width: 32%;
+  /* outline: skyblue solid; */
+}
+.verylight {
+  font-weight: 400;
+  font-size: 0.8333333333333334vw;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueT";
+  line-height: 2.0278833967046896vh;
+}
+.calories {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* outline: skyblue solid; */
+  margin-top: 10%;
+}
+.dark {
+  color: rgba(34, 38, 40, 1);
+  font-weight: 700;
+  font-family: "NeueSB";
+}
+.light {
+  color: rgba(34, 38, 40, 1);
+  font-weight: 400;
+  font-family: "NeueT";
+}
+.fat {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* outline: skyblue solid; */
+  margin-top: 6%;
+}
+.poly {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* outline: skyblue solid; */
+  margin-top: 3%;
+  flex-wrap: wrap;
+}
+.sdark {
+  font-weight: 600;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueL";
+  font-size: 22px;
+}
+.date {
+  font-size: 450;
+  font-size: 1vw;
+}
+.fat1 {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  /* outline: skyblue solid; */
+  margin-top: 8%;
+}
+.fat2 {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  /* outline: skyblue solid; */
+  margin-top: 5%;
+}
+.data {
+  font-weight: 600;
+  color: rgba(34, 38, 40, 1);
+  font-family: "NeueSB";
+  font-size: 1.25vw;
+}
+.cont {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.cont1 {
+  width: 100%;
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+}
+.w {
+  width: 45%;
+}
+.w img {
+  width: 100%;
+}
+.w1 {
+  width: 75%;
+}
+.w1 img {
+  width: 100%;
 }
