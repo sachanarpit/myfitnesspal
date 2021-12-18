@@ -67,7 +67,7 @@ export const Test = () => {
     <>
 
 
-      <Landingtool /> 
+      <SignUpForm4 /> 
 
 
       {/* <img src="/loading.gif" alt="" /> */}
