@@ -2,8 +2,10 @@ import IndexHome from "../components/Home-Page/Index";
 import NutritionFacts from "../components/Nutrition/NutritionFacts";
 import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
 import Connect from "../components/Home-Page/Connect/Connect";
+import Complete from "../components/Complete/Complete";
+import Recepie from "../components/Home-Page/Recepie/Recepie";
 
- //import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
+//import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
 // import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
 // import { SignUpForm3 } from "../components/SignUp-Forms/Form3/index";
 // import { SignUpForm4 } from "../components/SignUp-Forms/Form4/index";
@@ -59,17 +61,24 @@ import {
   WeightInput,
   WideInput,
 } from "../components/GlobalComp/Input.Pages.SignUp";
+import Upper from "../components/Addfood/Addfood";
 import { Landingtool } from "../components/Home-Page/Toolpage";
 import { Dailypage } from "../components/Home-Page/Dailysummary";
-
 
 export const Test = () => {
   return (
     <>
-
-
-      <Dailypage /> 
-
+      {/* <SignUpForm10 />  */}
+      {/* <IndexHome />
+      <NutritionFacts />
+      <Complete />
+      <Recepie /> */}
+      <Upper />
+      <IndexHome />
+      <NutritionFacts />
+      <Complete />
+      <Recepie />
+      <Dailypage />
 
       {/* <img src="/loading.gif" alt="" /> */}
 

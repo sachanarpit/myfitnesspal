@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 61.1111111111%;
+  /* outline: yellowgreen solid; */
+  margin: auto;
+  min-height: 278px;
+}
+.rec {
+  width: 33%;
+  height: 100%;
+}
+.rec img {
+  object-fit: cover;
+  width: 100%;
+}
+.recepie {
+  width: 40%;
+  /* outline: solid pink; */
+  margin: 60px auto;
+}
+.mid {
+  width: 40%;
+  /* outline: purple solid; */
+  margin: 40px auto;
+  text-align: center;
+}

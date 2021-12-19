@@ -1,4 +1,5 @@
 import styles from "./Logobar.module.css";
+
 function Logobar() {
   return (
     <div className={styles.main}>
@@ -19,3 +20,4 @@ function Logobar() {
 }
 
 export default Logobar;
+
