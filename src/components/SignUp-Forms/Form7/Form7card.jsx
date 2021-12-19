@@ -39,7 +39,8 @@ export const Form7card = ({ next }) => {
       .catch(setStatus("lo"));
   };
   return status === 201 ? (
-    <Redirect to="/signup-9" />
+    <Redirect to="/signup-8" />
+      
   ) : (
     <div className="fadeIn">
       <div className={styles.card7main}>
