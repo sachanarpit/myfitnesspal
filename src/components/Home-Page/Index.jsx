@@ -5,6 +5,7 @@ import Hero from "./Hero/Hero";
 import NavbarWithoutLogin from "./Navbar_withoutlogin/Navbar_withoutlogin";
 import { useEffect } from "react";
 import { useState } from "react";
+import Logobar from "./Logobar/Logobar";
 
 function IndexHome({ next }) {
   const [spinner, setSpinner] = useState(true);
@@ -16,6 +17,7 @@ function IndexHome({ next }) {
     <LoaderComp />
   ) : (
     <div>
+      <Logobar />
       <NavbarWithoutLogin />
       <Hero next={next} />
       <Connect />
