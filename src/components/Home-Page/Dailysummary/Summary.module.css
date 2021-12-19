@@ -105,3 +105,6 @@ flex-direction: column;
       display: flex;
       flex-direction: column;
   }
+  .footer{
+      margin-top: 447px;
+  }

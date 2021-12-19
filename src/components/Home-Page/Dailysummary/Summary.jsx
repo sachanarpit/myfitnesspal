@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { Body1, Heading1, Heading6, SubTitle1 } from "../../GlobalComp/Heading.Pages.Signup"
 import { SignUpBackButton, SignUpNextButton } from "../../GlobalComp/SignUp.Pages.Button"
+import Footer from "../Footer/Footer"
 import styles from "./Summary.module.css"
 
 
@@ -94,6 +95,9 @@ export const Summary = ({ calorie, prev, next, email }) => {
                 <center>
                     <img src="Goals.svg" />
                 </center>
+            </div>
+            <div className={styles.footer}>
+                <Footer />
             </div>
 
         </>
