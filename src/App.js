@@ -9,11 +9,12 @@ function App() {
     <div className="App">
       {/* <Routes /> */}
       <Test />
+      {/* <Test /> */}
 
       {/* <Test /> */}
 
       {/* <LoaderComp /> */}
-      {/* <TestArpit /> */}
+      <TestArpit />
     </div>
   );
 }

@@ -3,7 +3,7 @@ function NavbarWithoutLogin() {
     return (
         <div className={styles.main}>
             <div className={styles.ins}>
-                <div>ABOUT</div>
+                <div>HOME</div>
                 <div>FOOD</div>
                 <div>EXERCISE</div>
                 <div>APPS</div>

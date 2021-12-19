@@ -76,6 +76,9 @@ export const Test = () => {
       <Addfood />
       {/* <IndexHome />
       <NutritionFacts />
+      {/* <Upper /> */}
+      <IndexHome />
+      {/* <NutritionFacts />
       <Complete />
       <Recepie />
       <Dailypage /> */}
