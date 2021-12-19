@@ -99,46 +99,46 @@ export function TableDairy() {
 
           <br />
           <br />
-          <tfoot className="table-bordered">
-            <tr>
-              <th>hello</th>
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
+          <tfoot className="table-bordered table-secondary">
+            <ItemRow>
+              <th>Total</th>
+              <td>5211</td>
+              <td>451</td>
 
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
+              <td>44</td>
+              <td>21</td>
+              <td>1</td>
+              <td>152</td>
 
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
-            </tr>
-            <tr>
-              <th>hello</th>
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
+              <td>12</td>
+              <td>52</td>
+            </ItemRow>
+            <ItemRow>
+              <th>Total Dairy Goal</th>
+              <td>521</td>
+              <td>41</td>
 
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
+              <td>15</td>
+              <td>232</td>
+              <td>32</td>
+              <td>12</td>
 
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
-            </tr>
-            <tr>
-              <th>hello</th>
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
+              <td>21</td>
+              <td>10</td>
+            </ItemRow>
+            <ItemRow>
+              <th>Remaining</th>
+              <td>20.</td>
+              <td>20</td>
 
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
+              <td>54</td>
+              <td>51</td>
+              <td>51</td>
+              <td>13</td>
 
-              <td>fdhsakfjas</td>
-              <td>fdsajkfa</td>
-            </tr>
+              <td>21</td>
+              <td>10</td>
+            </ItemRow>
           </tfoot>
         </table>
       </center>
