@@ -64,6 +64,7 @@ import {
 import Upper from "../components/Addfood/Addfood";
 import { Landingtool } from "../components/Home-Page/Toolpage";
 import { Dailypage } from "../components/Home-Page/Dailysummary";
+import Addfood from "../components/Addfood/Addfood";
 
 export const Test = () => {
   return (
@@ -73,8 +74,9 @@ export const Test = () => {
       <NutritionFacts />
       <Complete />
       <Recepie /> */}
+      <Addfood />
       {/* <Upper /> */}
-      <IndexHome />
+      {/* <IndexHome /> */}
       {/* <NutritionFacts />
       <Complete />
       <Recepie />

@@ -7,6 +7,9 @@ import vector from "./Utils/Vector.svg";
 import NutritionFacts from "../Nutrition/NutritionFacts";
 import nutri from "./Utils/nutri.svg";
 import add from "./Utils/add.svg";
+import Logobar from "../Home-Page/Dailysummary/Logobar";
+import { NavbarWithhome } from "../Home-Page/Dailysummary/Navbar_withhome";
+import { NavbarWithhome1 } from "../Home-Page/Dailysummary/Navbar_withhome1";
 
 const Im = () => {
   return (
@@ -123,6 +126,11 @@ function Addfood() {
   };
   return (
     <div>
+        <Logobar name={"arpit"} />
+        <NavbarWithhome />
+        <NavbarWithhome1 />
+        <br />
+        <br />
       <div className={styles.up}>
         Add Food to
         <span className={styles.light}>Breakfast</span>
