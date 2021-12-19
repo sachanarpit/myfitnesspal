@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Body2 } from "../GlobalComp/Heading.Pages.Signup";
-import { SectionDairy } from "./Breakfast.Dairy";
+import { SectionDairy } from "./Section.Dairy";
 
 export const TableSec = styled.div`
   width: 942px;
@@ -92,14 +92,38 @@ export function TableDairy() {
               <th>hello</th>
               <td>fdhsakfjas</td>
               <td>fdsajkfa</td>
-            </tr>
-            <tr>
-              <th>hello</th>
+
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+
               <td>fdhsakfjas</td>
               <td>fdsajkfa</td>
             </tr>
             <tr>
               <th>hello</th>
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+            </tr>
+            <tr>
+              <th>hello</th>
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+              <td>fdhsakfjas</td>
+              <td>fdsajkfa</td>
+
               <td>fdhsakfjas</td>
               <td>fdsajkfa</td>
             </tr>
