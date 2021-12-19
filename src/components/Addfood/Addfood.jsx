@@ -14,22 +14,45 @@ const Im = () => {
     </div>
   );
 };
-const Cont = ({ data }) => {
+const Extra = ({ name }) => {
+  return (
+    <div className={styles.info}>
+      <h3>
+        Homemade - <span>{name}</span>
+      </h3>
+      <button>nutrition</button>
+    </div>
+  );
+};
+const Cont = ({ data, add, showe }) => {
+  const [name, setName] = useState("");
+  const handle = (i) => {
+    setName(i.comment);
+    add();
+  };
   return (
     <div>
       <div className={styles.matching}>Matching foods</div>
       <div className={styles.data}>
         {data.map((i) => (
-          <div className={styles.inside}>
-            <div className={styles.text}>
-              {i.comment}
-              <span className={styles.ma}>
-                <img src={vector} alt="" />
-              </span>
+          <div>
+            <div
+              className={styles.inside}
+              onClick={() => {
+                handle(i);
+              }}
+            >
+              <div className={styles.text}>
+                {i.comment}
+                <span className={styles.ma}>
+                  <img src={vector} alt="" />
+                </span>
+              </div>
+              <div className={styles.text1}>
+                1 cup, <span>{i.Calories} calories</span>
+              </div>
             </div>
-            <div className={styles.text1}>
-              1 cup, <span>{i.Calories} calories</span>
-            </div>
+            <div>{showe ? <Extra name={name} /> : null}</div>
           </div>
         ))}
       </div>
@@ -40,6 +63,7 @@ const Cont = ({ data }) => {
 function Addfood() {
   const [show, setShow] = useState(true);
   const [data, setData] = useState([]);
+  const [showe, setShowe] = useState(false);
 
   const handleChange = (e) => {
     const data = axios
@@ -48,6 +72,9 @@ function Addfood() {
         setData(data);
       });
     setShow(false);
+  };
+  const add = () => {
+    setShowe(true);
   };
   return (
     <div>
@@ -61,7 +88,7 @@ function Addfood() {
       <div className={styles.input}>
         <input type="text" onChange={handleChange} />
       </div>
-      {show ? <Im /> : <Cont data={data} />}
+      {show ? <Im /> : <Cont data={data} add={add} showe={showe} />}
     </div>
   );
 }

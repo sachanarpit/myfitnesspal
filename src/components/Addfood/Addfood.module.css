@@ -72,3 +72,16 @@ input {
   font-size: 1vw;
   color: #363636;
 }
+.info {
+  position: absolute;
+  top: 28%;
+  left: 50.7638888889%;
+  width: 31.0416666667%;
+  height: 209px;
+  /* outline: hotpink solid; */
+  background-color: #f0f2f4;
+  text-align: center;
+}
+.info h3 {
+  margin-top: 6%;
+}
