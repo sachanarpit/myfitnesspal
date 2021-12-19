@@ -1,5 +1,6 @@
 import { Route, Switch, Link } from "react-router-dom";
 import { FoodDairy } from "../components/FoodDairy";
+import { Dailypage } from "../components/Home-Page/Dailysummary";
 import IndexHome from "../components/Home-Page/Index";
 import { SignUpForm1 } from "../components/SignUp-Forms/Form1";
 import { SignUpForm10 } from "../components/SignUp-Forms/Form10";
@@ -34,7 +35,6 @@ export const Routes = () => {
         <Route exact path="/signup-5">
           <SignUpForm5 next={"/signup-6"} prev={"/signup-4"} />
         </Route>
-
         <Route exact path="/signup-6">
           <SignUpForm6 next={"/signup-7"} prev={"/signup-5"} />
         </Route>
@@ -44,12 +44,14 @@ export const Routes = () => {
         <Route exact path="/signup-8">
           <SignUpForm8 next={"/signup-9"} prev={"/signup-7"} />
         </Route>
-
         <Route exact path="/signup-9">
-          <SignUpForm9 next={"/signup-10"} prev={"/signup-8"} />
+          <SignUpForm9 next={"/user-home"} prev={"/signup-8"} />
         </Route>
         <Route exact path="/signup-10">
           <SignUpForm10 next={"/signup-1"} prev={"/signup-9"} />
+        </Route>
+        <Route exact path="/user-home">
+          <Dailypage />
         </Route>
         <Route exact path="/add-food">
           <FoodDairy />
