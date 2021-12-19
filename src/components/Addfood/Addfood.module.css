@@ -45,3 +45,30 @@ input {
   margin-top: 40px;
   overflow: scroll;
 }
+.inside {
+  width: 60%;
+  height: 14%;
+  margin-left: 2%;
+  /* outline: black solid; */
+  overflow: scroll;
+  white-space: nowrap;
+  margin: 9px;
+}
+.inside:hover {
+  background-color: rgba(240, 242, 244, 1);
+}
+.text {
+  font-family: "NeueSB";
+  font-weight: normal;
+  font-size: 1vw;
+  color: #363636;
+}
+.ma {
+  margin-left: 5%;
+}
+.text1 {
+  font-family: "NeueL";
+  font-weight: normal;
+  font-size: 1vw;
+  color: #363636;
+}

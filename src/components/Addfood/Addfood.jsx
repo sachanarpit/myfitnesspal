@@ -1,8 +1,9 @@
-import { Body1 } from "../GlobalComp/Heading.Pages.Signup";
+import { Body1, SubTitle1 } from "../GlobalComp/Heading.Pages.Signup";
 import styles from "./Addfood.module.css";
 import img from "./Utils/image.png";
 import { useState } from "react";
 import axios from "axios";
+import vector from "./Utils/Vector.svg";
 
 const Im = () => {
   return (
@@ -13,23 +14,39 @@ const Im = () => {
     </div>
   );
 };
-const Cont = () => {
+const Cont = ({ data }) => {
   return (
     <div>
       <div className={styles.matching}>Matching foods</div>
-      <div className={styles.data}></div>
+      <div className={styles.data}>
+        {data.map((i) => (
+          <div className={styles.inside}>
+            <div className={styles.text}>
+              {i.comment}
+              <span className={styles.ma}>
+                <img src={vector} alt="" />
+              </span>
+            </div>
+            <div className={styles.text1}>
+              1 cup, <span>{i.Calories} calories</span>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
 
 function Addfood() {
   const [show, setShow] = useState(true);
-  const [text, setText] = useState("");
+  const [data, setData] = useState([]);
 
   const handleChange = (e) => {
-    const data = axios.get("http://localhost:2345/food").then((res) => {
-      console.log(res);
-    });
+    const data = axios
+      .get(`http://localhost:2345/food/search?q=${e.target.value}`)
+      .then(({ data }) => {
+        setData(data);
+      });
     setShow(false);
   };
   return (
@@ -44,7 +61,7 @@ function Addfood() {
       <div className={styles.input}>
         <input type="text" onChange={handleChange} />
       </div>
-      {show ? <Im /> : <Cont />}
+      {show ? <Im /> : <Cont data={data} />}
     </div>
   );
 }
