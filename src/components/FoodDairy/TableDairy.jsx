@@ -75,7 +75,10 @@ export function TableDairy({ componentRef }) {
 
   console.log(total);
   return (
-    <TableSec className="table-responsive" ref={(el) => (componentRef = el)}>
+    <TableSec
+      className="table-responsive fadeIn"
+      ref={(el) => (componentRef = el)}
+    >
       <center>
         <table className="table  table-hover table-borderless">
           <TableHead>

@@ -10,7 +10,9 @@ import add from "./Utils/add.svg";
 import Logobar from "../Home-Page/Dailysummary/Logobar";
 import { NavbarWithhome } from "../Home-Page/Dailysummary/Navbar_withhome";
 import { NavbarWithhome1 } from "../Home-Page/Dailysummary/Navbar_withhome1";
-import { useLocation } from "react-router-dom";
+import { Redirect, useLocation } from "react-router-dom";
+import Footer from "../Home-Page/Footer/Footer";
+import { useHistory } from "react-router-dom";
 
 const Im = () => {
   return (
@@ -30,6 +32,7 @@ const Modal = ({ close, id }) => {
 };
 const Extra = ({ name, id, type }) => {
   const [modal, setModal] = useState(false);
+  const history = useHistory();
   const open = () => {
     setModal(true);
   };
@@ -45,7 +48,12 @@ const Extra = ({ name, id, type }) => {
       })
       .then(function (response) {
         alert("item is added successfully");
-      });
+      })
+      .then(
+        history.push({
+          pathname: "/add-food",
+        })
+      );
   };
   return (
     <div className={styles.info}>
@@ -151,6 +159,7 @@ function Addfood() {
       ) : (
         <Cont type={state} data={data} add={add} showe={showe} />
       )}
+      <Footer />
     </div>
   );
 }
