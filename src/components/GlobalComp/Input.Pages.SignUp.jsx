@@ -89,10 +89,16 @@ export const WeightInput = ({ placeholder }) => {
   );
 };
 
-export const WideInput = ({ placeholder, typeInput }) => {
+export const WideInput = ({ placeholder, typeInput, text, setText }) => {
   return (
     <>
-      <InputWide placeholder={placeholder} type={typeInput} />
+      <InputWide
+        placeholder={placeholder}
+        type={typeInput}
+        value={text}
+        required
+        onChange={(e) => setText(e.target.value)}
+      />
     </>
   );
 };

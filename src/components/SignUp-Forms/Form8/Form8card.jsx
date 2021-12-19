@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Body2, Heading6 } from "../../GlobalComp/Heading.Pages.Signup";
 import { WideInput } from "../../GlobalComp/Input.Pages.SignUp";
@@ -10,6 +11,7 @@ import {
 import styles from "./Form8.module.css";
 
 export const Form8card = ({ prev, next }) => {
+  const [text, setText] = useState();
   return (
     <div className="fadeIn">
       <div className={styles.card8main}>
@@ -19,7 +21,12 @@ export const Form8card = ({ prev, next }) => {
           <Heading6>Create a username.</Heading6>
         </div>
         <div className={styles.email}>
-          <WideInput placeholder={""} typeInput={"text"}></WideInput>
+          <WideInput
+            placeholder={""}
+            typeInput={"text"}
+            text={text}
+            setText={setText}
+          ></WideInput>
         </div>
         <Link to={prev}>
           <SignUpBackButton className={styles.back}>Back</SignUpBackButton>
