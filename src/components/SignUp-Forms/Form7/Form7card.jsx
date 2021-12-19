@@ -1,3 +1,5 @@
+import axios from "axios";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
   Body2,
@@ -10,8 +12,30 @@ import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form7.module.css";
 
 export const Form7card = ({ next }) => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  console.log(email);
+
+  const handleSubmit = () => {
+    const options = {
+      url: "http://localhost:2345/users",
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      data: {
+        email: email,
+        password: password,
+      },
+    };
+
+    axios(options).then((response) => {
+      alert(response.status);
+    });
+  };
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card7main}>
         <ProgressBar6></ProgressBar6>
 
@@ -19,12 +43,19 @@ export const Form7card = ({ next }) => {
           <Heading6>Almost there! Create your account.</Heading6>
         </div>
         <div className={styles.email}>
-          <WideInput placeholder={"Email address"} type={"email"}></WideInput>
+          <WideInput
+            placeholder={"Email address"}
+            type={"email"}
+            text={email}
+            setText={setEmail}
+          />
         </div>
         <div className={styles.pass}>
           <WideInput
             placeholder={"Create a password"}
             typeInput={"password"}
+            text={password}
+            setText={setPassword}
           ></WideInput>
         </div>
         <div className={styles.body}>
@@ -42,7 +73,9 @@ export const Form7card = ({ next }) => {
         </div>
         <div className={styles.cont}>
           <Link to={next}>
-            <SignUpContinueButton>CONTINUE</SignUpContinueButton>
+            <SignUpContinueButton onClick={handleSubmit}>
+              CONTINUE
+            </SignUpContinueButton>
           </Link>
         </div>
         <div className={styles.span2}>
@@ -87,6 +120,6 @@ export const Form7card = ({ next }) => {
           </FooterText>
         </div>
       </div>
-    </>
+    </div>
   );
 };

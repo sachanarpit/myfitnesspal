@@ -11,9 +11,9 @@ import { ProgressBar8 } from "../../GlobalComp/ProgressBar.Pages";
 import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form9.module.css";
 
-export const Form9card = ({next}) => {
+export const Form9card = ({ next }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card9main}>
         <ProgressBar8></ProgressBar8>
 
@@ -52,11 +52,11 @@ export const Form9card = ({next}) => {
           </FooterText>
         </div>
         <div className={styles.cont}>
-        <Link to={next}>
-          <SignUpContinueButton>EXPLORE MYFITNESSPAL</SignUpContinueButton>
+          <Link to={next}>
+            <SignUpContinueButton>EXPLORE MYFITNESSPAL</SignUpContinueButton>
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };

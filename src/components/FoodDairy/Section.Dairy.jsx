@@ -1,4 +1,7 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { ProductDairy } from "./ProductDairy";
 import {
   ItemDelete,
   ItemLink,
@@ -7,12 +10,20 @@ import {
   ItemTime,
 } from "./TableDairy";
 
-export function SectionDairy() {
+export function SectionDairy({ type, total, setTotal }) {
+  const [data, setData] = useState([]);
+  let key = "61bbd65ae22b8495fe3dc4ee";
+  useEffect(() => {
+    axios
+      .get(`http://localhost:2345/list/user?key=${key}&cat=${type}`)
+      .then((res) => setData(res.data));
+  }, []);
+
   return (
     <>
       <tbody>
         <tr className="table-secondary">
-          <ItemTime>BreakFast</ItemTime>
+          <ItemTime>{type}</ItemTime>
           <td></td>
           <td></td>
           <td></td>
@@ -23,20 +34,15 @@ export function SectionDairy() {
           <td></td>
         </tr>
 
-        <ItemRow>
-          <ItemName className="table-secondary">Poha, 1 cup</ItemName>
-          <td className="table-secondary">158</td>
-          <td className="table-secondary">158</td>
-          <td className="table-secondary">158</td>
-          <td className="table-secondary">158</td>
-          <td className="table-secondary">158</td>
-          <td className="table-secondary">158</td>
-          <td className="table-secondary">158</td>
-          <td className="table-secondary">158</td>
-          <td>
-            <ItemDelete>❌</ItemDelete>
-          </td>
-        </ItemRow>
+        {data.map((sa) => (
+          <ProductDairy
+            total={total}
+            setTotal={setTotal}
+            key={sa._id}
+            recipe={sa.foodId}
+          />
+        ))}
+
         <tr>
           <div>
             <ItemLink>

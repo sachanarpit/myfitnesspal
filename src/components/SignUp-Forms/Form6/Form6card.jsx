@@ -11,7 +11,7 @@ import styles from "./Form6.module.css";
 
 export const Form6card = ({ prev, next }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card6main}>
         <ProgressBar5></ProgressBar5>
         <div className={styles.ques2}>
@@ -67,6 +67,6 @@ export const Form6card = ({ prev, next }) => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };
