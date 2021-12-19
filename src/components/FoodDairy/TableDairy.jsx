@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Body2 } from "../GlobalComp/Heading.Pages.Signup";
@@ -62,6 +62,18 @@ export const ItemDelete = styled.div`
 `;
 
 export function TableDairy() {
+  const [total, setTotal] = useState({
+    calories: 0,
+    carbs: 0,
+    fat: 0,
+    protein: 0,
+    cholestrol: 0,
+    sodium: 0,
+    sugar: 0,
+    fiber: 0,
+  });
+
+  console.log(total);
   return (
     <TableSec className="table-responsive">
       <center>
@@ -80,10 +92,10 @@ export function TableDairy() {
             </tr>
           </TableHead>
 
-          <SectionDairy type={"breakfast"} />
-          <SectionDairy />
-          <SectionDairy />
-          <SectionDairy />
+          <SectionDairy total={total} setTotal={setTotal} type={"breakfast"} />
+          <SectionDairy total={total} setTotal={setTotal} type={"lunch"} />
+          <SectionDairy total={total} setTotal={setTotal} type={"dinner"} />
+          <SectionDairy total={total} setTotal={setTotal} type={"snacks"} />
 
           <br />
           <br />
