@@ -9,7 +9,7 @@ import styles from "./Form4.module.css";
 
 export const Form4card = ({ prev, next }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card4main}>
         <ProgressBar3></ProgressBar3>
         <div className={styles.ques2}>
@@ -73,6 +73,6 @@ export const Form4card = ({ prev, next }) => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };

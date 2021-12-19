@@ -1,4 +1,7 @@
+import axios from "axios";
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import {
   Body2,
   Heading6,
@@ -9,9 +12,37 @@ import { ProgressBar6 } from "../../GlobalComp/ProgressBar.Pages";
 import { SignUpContinueButton } from "../../GlobalComp/SignUp.Pages.Button";
 import styles from "./Form7.module.css";
 
-export const Form7card = ({ prev, next }) => {
-  return (
-    <>
+export const Form7card = ({ next }) => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [status, setStatus] = useState();
+  console.log(email);
+
+  const handleSubmit = () => {
+    const options = {
+      url: "http://localhost:2345/users",
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      data: {
+        email: email,
+        password: password,
+      },
+    };
+
+    axios(options)
+      .then((response) => {
+        setStatus(response.status);
+      })
+      .catch(setStatus("lo"));
+  };
+  return status === 201 ? (
+    <Redirect to="/signup-8" />
+      
+  ) : (
+    <div className="fadeIn">
       <div className={styles.card7main}>
         <ProgressBar6></ProgressBar6>
 
@@ -19,12 +50,26 @@ export const Form7card = ({ prev, next }) => {
           <Heading6>Almost there! Create your account.</Heading6>
         </div>
         <div className={styles.email}>
-          <WideInput placeholder={"Email address"} type={"email"}></WideInput>
+          <WideInput
+            placeholder={"Email address"}
+            type={"email"}
+            text={email}
+            setText={setEmail}
+          />
         </div>
+        {status === "lo" ? (
+          <div className={styles.body}>
+            <Body2>Please type correct email</Body2>
+          </div>
+        ) : (
+          <></>
+        )}
         <div className={styles.pass}>
           <WideInput
             placeholder={"Create a password"}
             typeInput={"password"}
+            text={password}
+            setText={setPassword}
           ></WideInput>
         </div>
         <div className={styles.body}>
@@ -41,9 +86,11 @@ export const Form7card = ({ prev, next }) => {
           </span>
         </div>
         <div className={styles.cont}>
-          <Link to={next}>
-            <SignUpContinueButton>CONTINUE</SignUpContinueButton>
-          </Link>
+          {/* <Link to={next}> */}
+          <SignUpContinueButton onClick={handleSubmit}>
+            CONTINUE
+          </SignUpContinueButton>
+          {/* </Link> */}
         </div>
         <div className={styles.span2}>
           <span className={styles.span_main}>
@@ -87,6 +134,6 @@ export const Form7card = ({ prev, next }) => {
           </FooterText>
         </div>
       </div>
-    </>
+    </div>
   );
 };
