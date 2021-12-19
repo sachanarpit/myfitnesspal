@@ -17,10 +17,10 @@ const Im = () => {
     </div>
   );
 };
-const Modal = ({ close }) => {
+const Modal = ({ close, id }) => {
   return (
     <div className={styles.modal}>
-      <NutritionFacts close={close} />
+      <NutritionFacts close={close} id={id} />
     </div>
   );
 };
@@ -61,15 +61,8 @@ const Extra = ({ name, id }) => {
           <img src={nutri} alt="" />
         </div>
       </div>
-      {/* <div onClick={open}></div> */}
-      {/* <button
-        onClick={() => {
-          post(id);
-        }}
-      >
-        Add
-      </button> */}
-      {modal ? <Modal close={close} /> : null}
+
+      {modal ? <Modal close={close} id={id} /> : null}
     </div>
   );
 };

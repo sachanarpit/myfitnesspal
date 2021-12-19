@@ -5,7 +5,8 @@ import yes from "./Utils/Yes.svg";
 import dk from "./Utils/Dk.svg";
 import cross from "./Utils/cross.svg";
 
-function NutritionFacts({ close }) {
+function NutritionFacts({ close, id }) {
+  console.log(id);
   const handleClose = () => {
     close();
   };
