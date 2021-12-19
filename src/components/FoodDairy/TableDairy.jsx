@@ -80,7 +80,7 @@ export function TableDairy() {
             </tr>
           </TableHead>
 
-          <SectionDairy />
+          <SectionDairy type={"breakfast"} />
           <SectionDairy />
           <SectionDairy />
           <SectionDairy />
