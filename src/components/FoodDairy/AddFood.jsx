@@ -4,7 +4,7 @@ import Logobar from "../Home-Page/Dailysummary/Logobar";
 import { NavbarWithhome } from "../Home-Page/Dailysummary/Navbar_withhome";
 import { NavbarWithhome1 } from "../Home-Page/Dailysummary/Navbar_withhome1";
 import { TableDairy } from "./TableDairy";
-
+import ReactToPrint from "react-to-print";
 const CalederDairyImg = styled.img`
   width: 276px;
   height: 86px;
@@ -39,7 +39,7 @@ const VieR = styled.img`
   cursor: pointer;
 `;
 
-export function AddFoodDairy() {
+export function AddFoodDairy({ componentRef }) {
   return (
     <div>
       <Logobar name={"arpit"} />
@@ -50,7 +50,7 @@ export function AddFoodDairy() {
           <div>
             <CalederDairyImg src="/fooddate.png" alt="" />
           </div>
-          <TableDairy />
+          <TableDairy componentRef={componentRef} />
         </div>
         <div className="container">
           <div className="row">
@@ -74,7 +74,10 @@ export function AddFoodDairy() {
           </div>
           <div className="row">
             <div className="col">
-              <ComE src="/btn1.png" alt="" />
+              <ReactToPrint
+                trigger={() => <ComE src="/btn1.png" alt="" />}
+                content={() => componentRef}
+              />
             </div>
             <div className="col">
               <VieR src="/btn2.png" alt="" />
