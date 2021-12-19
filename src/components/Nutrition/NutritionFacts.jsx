@@ -3,10 +3,17 @@ import vector from "./Utils/Vector.svg";
 import no from "./Utils/No.svg";
 import yes from "./Utils/Yes.svg";
 import dk from "./Utils/Dk.svg";
+import cross from "./Utils/cross.svg";
 
-function NutritionFacts() {
+function NutritionFacts({ close }) {
+  const handleClose = () => {
+    close();
+  };
   return (
     <div className={styles.main}>
+      <div className={styles.cross} onClick={handleClose}>
+        <img src={cross} alt="" />
+      </div>
       <div className={styles.first}>
         <div className={styles.vdark}>Nutrition Facts</div>
         <div className={styles.poha}>

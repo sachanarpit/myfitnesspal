@@ -4,6 +4,7 @@ import img from "./Utils/image.png";
 import { useState } from "react";
 import axios from "axios";
 import vector from "./Utils/Vector.svg";
+import NutritionFacts from "../Nutrition/NutritionFacts";
 
 const Im = () => {
   return (
@@ -14,21 +15,49 @@ const Im = () => {
     </div>
   );
 };
-const Extra = ({ name }) => {
-  const open = () => {};
+const Modal = ({ close }) => {
+  return (
+    <div className={styles.modal}>
+      <NutritionFacts close={close} />
+    </div>
+  );
+};
+const Extra = ({ name, id }) => {
+  const [modal, setModal] = useState(false);
+  const open = () => {
+    setModal(true);
+  };
+  const close = () => {
+    setModal(false);
+  };
+  const post = (id) => {
+    // "Arpit post"
+    console.log(id);
+  };
   return (
     <div className={styles.info}>
       <h3>
         Homemade - <span>{name}</span>
       </h3>
       <button onClick={open}>nutrition</button>
+      <button
+        onClick={() => {
+          post(id);
+        }}
+      >
+        Add
+      </button>
+      {modal ? <Modal close={close} /> : null}
     </div>
   );
 };
 const Cont = ({ data, add, showe }) => {
   const [name, setName] = useState("");
+  const [id, setId] = useState("");
+
   const handle = (i) => {
     setName(i.comment);
+    setId(i._id);
     add();
   };
   return (
@@ -53,7 +82,7 @@ const Cont = ({ data, add, showe }) => {
                 1 cup, <span>{i.Calories} calories</span>
               </div>
             </div>
-            <div>{showe ? <Extra name={name} /> : null}</div>
+            <div>{showe ? <Extra name={name} id={id} /> : null}</div>
           </div>
         ))}
       </div>

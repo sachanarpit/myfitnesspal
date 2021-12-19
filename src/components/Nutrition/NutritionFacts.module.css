@@ -1,6 +1,7 @@
 .main {
+  position: relative;
   width: 46.388888888888886vw;
-  min-height: 50.69708491761724vh;
+  height: 50.69708491761724vh;
   display: flex;
   justify-content: space-between;
   /* outline: red solid; */
@@ -141,4 +142,10 @@
 }
 .w1 img {
   width: 100%;
+}
+.cross {
+  position: absolute;
+  right: 0;
+  top: -8%;
+  cursor: pointer;
 }
