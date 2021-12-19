@@ -15,12 +15,13 @@ const Im = () => {
   );
 };
 const Extra = ({ name }) => {
+  const open = () => {};
   return (
     <div className={styles.info}>
       <h3>
         Homemade - <span>{name}</span>
       </h3>
-      <button>nutrition</button>
+      <button onClick={open}>nutrition</button>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import Logobar from "./Logobar/Logobar";
 import NavbarWithoutLogin from "./Navbar_withoutlogin/Navbar_withoutlogin";
 import { useEffect } from "react";
 import { useState } from "react";
-import Recepie from "../Recepie/Recepie";
+import Recepie from "./Recepie/Recepie";
 
 function IndexHome({ next }) {
   const [spinner, setSpinner] = useState(true);

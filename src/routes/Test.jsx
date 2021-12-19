@@ -3,7 +3,7 @@ import NutritionFacts from "../components/Nutrition/NutritionFacts";
 import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
 import Connect from "../components/Home-Page/Connect/Connect";
 import Complete from "../components/Complete/Complete";
-import Recepie from "../components/Recepie/Recepie";
+import Recepie from "../components/Home-Page/Recepie/Recepie";
 
 //import { SignUpForm1 } from "../components/SignUp-Forms/Form1/index";
 // import { SignUpForm2 } from "../components/SignUp-Forms/Form2/index";
