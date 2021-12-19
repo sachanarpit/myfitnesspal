@@ -61,7 +61,7 @@ import {
   WeightInput,
   WideInput,
 } from "../components/GlobalComp/Input.Pages.SignUp";
-import Upper from "../components/Addfood/Addfood";
+import Addfood from "../components/Addfood/Addfood";
 import { Landingtool } from "../components/Home-Page/Toolpage";
 import { Dailypage } from "../components/Home-Page/Dailysummary";
 
@@ -73,7 +73,7 @@ export const Test = () => {
       <NutritionFacts />
       <Complete />
       <Recepie /> */}
-      <Upper />
+      <Addfood />
       {/* <IndexHome />
       <NutritionFacts />
       <Complete />
