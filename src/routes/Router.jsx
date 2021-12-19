@@ -1,4 +1,5 @@
 import { Route, Switch, Link } from "react-router-dom";
+import Addfood from "../components/Addfood/Addfood";
 import { FoodDairy } from "../components/FoodDairy";
 import { Dailypage } from "../components/Home-Page/Dailysummary";
 import IndexHome from "../components/Home-Page/Index";
@@ -55,6 +56,9 @@ export const Routes = () => {
         </Route>
         <Route exact path="/add-food">
           <FoodDairy />
+        </Route>
+        <Route exact path="/search">
+          <Addfood />
         </Route>
         <Route path="/products/:id">"new product"</Route>
         <Route>

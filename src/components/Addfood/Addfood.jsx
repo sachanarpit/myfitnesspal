@@ -7,6 +7,10 @@ import vector from "./Utils/Vector.svg";
 import NutritionFacts from "../Nutrition/NutritionFacts";
 import nutri from "./Utils/nutri.svg";
 import add from "./Utils/add.svg";
+import Logobar from "../Home-Page/Dailysummary/Logobar";
+import { NavbarWithhome } from "../Home-Page/Dailysummary/Navbar_withhome";
+import { NavbarWithhome1 } from "../Home-Page/Dailysummary/Navbar_withhome1";
+import { useLocation } from "react-router-dom";
 
 const Im = () => {
   return (
@@ -24,7 +28,7 @@ const Modal = ({ close, id }) => {
     </div>
   );
 };
-const Extra = ({ name, id }) => {
+const Extra = ({ name, id, type }) => {
   const [modal, setModal] = useState(false);
   const open = () => {
     setModal(true);
@@ -37,10 +41,10 @@ const Extra = ({ name, id }) => {
       .post("http://localhost:2345/list", {
         userId: "Fred",
         foodId: `${id}`,
-        cat: "dinner",
+        cat: type,
       })
       .then(function (response) {
-        console.log(response);
+        alert("item is added successfully");
       });
   };
   return (
@@ -66,7 +70,7 @@ const Extra = ({ name, id }) => {
     </div>
   );
 };
-const Cont = ({ data, add, showe }) => {
+const Cont = ({ data, add, showe, type }) => {
   const [name, setName] = useState("");
   const [id, setId] = useState("");
 
@@ -97,7 +101,9 @@ const Cont = ({ data, add, showe }) => {
                 1 cup, <span>{i.Calories} calories</span>
               </div>
             </div>
-            <div>{showe ? <Extra name={name} id={id} /> : null}</div>
+            <div>
+              {showe ? <Extra type={type} name={name} id={id} /> : null}
+            </div>
           </div>
         ))}
       </div>
@@ -106,9 +112,11 @@ const Cont = ({ data, add, showe }) => {
 };
 
 function Addfood() {
+  const { state } = useLocation();
   const [show, setShow] = useState(true);
   const [data, setData] = useState([]);
   const [showe, setShowe] = useState(false);
+  console.log(state);
 
   const handleChange = (e) => {
     const data = axios
@@ -123,9 +131,14 @@ function Addfood() {
   };
   return (
     <div>
+      <Logobar name={"Arpit"} />
+      <NavbarWithhome />
+      <NavbarWithhome1 />
+      <br />
+      <br />
       <div className={styles.up}>
         Add Food to
-        <span className={styles.light}>Breakfast</span>
+        <span className={styles.light}>{state}</span>
       </div>
       <div className={styles.se}>
         <Body1>Search our food database by name :</Body1>
@@ -133,7 +146,11 @@ function Addfood() {
       <div className={styles.input}>
         <input type="text" onChange={handleChange} />
       </div>
-      {show ? <Im /> : <Cont data={data} add={add} showe={showe} />}
+      {show ? (
+        <Im />
+      ) : (
+        <Cont type={state} data={data} add={add} showe={showe} />
+      )}
     </div>
   );
 }

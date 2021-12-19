@@ -26,14 +26,18 @@ export function ProductDairy({ recipe, total, setTotal }) {
     <>
       <ItemRow>
         <ItemName className="table-secondary">{dish.comment}</ItemName>
-        <td className="table-secondary">{dish.Calories}</td>
-        <td className="table-secondary">{dish.Carbohydrates}g</td>
-        <td className="table-secondary">{dish.Fat}g</td>
-        <td className="table-secondary">{dish.Protein}g</td>
-        <td className="table-secondary">{dish.amount1}mg</td>
-        <td className="table-secondary">{dish.Sodium}mg</td>
-        <td className="table-secondary">{dish.Sugars}g</td>
-        <td className="table-secondary">{dish.DietaryFiber}g</td>
+        <td className="table-secondary">{Number(dish.Calories).toFixed(1)}</td>
+        <td className="table-secondary">
+          {Number(dish.Carbohydrates).toFixed(1)}g
+        </td>
+        <td className="table-secondary">{Number(dish.Fat).toFixed(1)}g</td>
+        <td className="table-secondary">{Number(dish.Protein).toFixed(1)}g</td>
+        <td className="table-secondary">{Number(dish.amount1).toFixed(1)}mg</td>
+        <td className="table-secondary">{Number(dish.Sodium).toFixed(1)}mg</td>
+        <td className="table-secondary">{Number(dish.Sugars).toFixed(1)}g</td>
+        <td className="table-secondary">
+          {Number(dish.DietaryFiber).toFixed(1)}g
+        </td>
         <td>
           <ItemDelete>❌</ItemDelete>
         </td>

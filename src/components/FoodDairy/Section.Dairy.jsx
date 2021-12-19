@@ -12,7 +12,7 @@ import {
 
 export function SectionDairy({ type, total, setTotal }) {
   const [data, setData] = useState([]);
-  let key = "61bbd65ae22b8495fe3dc4ee";
+  let key = "Fred";
   useEffect(() => {
     axios
       .get(`http://localhost:2345/list/user?key=${key}&cat=${type}`)
@@ -46,8 +46,16 @@ export function SectionDairy({ type, total, setTotal }) {
         <tr>
           <div>
             <ItemLink>
-              <Link style={{ textDecoration: "none" }}>Add Food</Link> |{" "}
-              <Link style={{ textDecoration: "none" }}>QuickTool</Link>
+              <Link
+                to={{
+                  pathname: "/search",
+                  state: type, // your data array of objects
+                }}
+                style={{ textDecoration: "none" }}
+              >
+                Add Food
+              </Link>{" "}
+              | <Link style={{ textDecoration: "none" }}>QuickTool</Link>
             </ItemLink>
             <td></td>
             <td></td>
