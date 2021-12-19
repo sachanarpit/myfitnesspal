@@ -61,7 +61,7 @@ export const ItemDelete = styled.div`
   cursor: pointer;
 `;
 
-export function TableDairy() {
+export function TableDairy({ componentRef }) {
   const [total, setTotal] = useState({
     calories: 0,
     carbs: 0,
@@ -75,7 +75,7 @@ export function TableDairy() {
 
   console.log(total);
   return (
-    <TableSec className="table-responsive">
+    <TableSec className="table-responsive" ref={(el) => (componentRef = el)}>
       <center>
         <table className="table  table-hover table-borderless">
           <TableHead>

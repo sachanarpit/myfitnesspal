@@ -4,9 +4,19 @@ import no from "./Utils/No.svg";
 import yes from "./Utils/Yes.svg";
 import dk from "./Utils/Dk.svg";
 import cross from "./Utils/cross.svg";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function NutritionFacts({ close, id }) {
-  console.log(id);
+  const [food, setFood] = useState({});
+  useEffect(() => {
+    axios
+      .get(`http://localhost:2345/food/find?id=${id}`)
+      .then(({ data: { food } }) => {
+        console.log(food);
+        setFood(food);
+      });
+  }, [id]);
   const handleClose = () => {
     close();
   };
@@ -18,19 +28,23 @@ function NutritionFacts({ close, id }) {
       <div className={styles.first}>
         <div className={styles.vdark}>Nutrition Facts</div>
         <div className={styles.poha}>
-          <span className={styles.Pl}>Poha</span>
+          {/* <span className={styles.pl}>{food.comment}</span> */}
           <span>
             <img src={vector} alt="mn" />
           </span>
         </div>
-        <div className={styles.verylight}>1 cup, 157 calories</div>
+        <div className={styles.verylight}>
+          1 cup, <span>{food.Calories} Calories</span>
+        </div>
         <div className={styles.calories}>
           <div className={styles.dark}>Calories</div>
-          <div className={styles.light}>157</div>
+          <div className={styles.light}>{food.Calories}</div>
         </div>
         <div className={styles.fat}>
           <div className={styles.dark}>Total Fat</div>
-          <div className={styles.light}>0 g</div>
+          <div className={styles.light}>
+            <span>{food.Fat} g</span>
+          </div>
         </div>
         <div className={styles.fat}>
           <div className={styles.light}>Saturated</div>
@@ -46,7 +60,9 @@ function NutritionFacts({ close, id }) {
         </div>
         <div className={styles.poly}>
           <div className={styles.dark}>Cholestrol</div>
-          <div className={styles.light}>0 g</div>
+          <div className={styles.light}>
+            <span>{food.Cholesterol} g</span>
+          </div>
         </div>
         <div className={styles.poly}>
           <div className={styles.light}>Trans</div>
@@ -94,7 +110,9 @@ function NutritionFacts({ close, id }) {
         </div>
         <div className={styles.fat2}>
           <div className={styles.dark}>Protein</div>
-          <div className={styles.light}>3 g</div>
+          <div className={styles.light}>
+            <span>{food.Protein} g</span>
+          </div>
         </div>
         <div className={styles.fat2}>
           <div className={styles.dark}>Pottasium</div>
