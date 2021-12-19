@@ -18,9 +18,9 @@ const ChildSelectForm3 = styled.div`
   margin-right: 0.6588579795021962vw;
 `;
 
-export const SelectForm3 = ({ heading, para, status }) => {
+export const SelectForm3 = ({ heading, para, status, setStatus }) => {
   return (
-    <ParentSelectForm3>
+    <ParentSelectForm3 onClick={() => setStatus(!status)}>
       <ChildSelectForm3>
         {status === true ? (
           <Body1 id="heading">{heading}</Body1>
