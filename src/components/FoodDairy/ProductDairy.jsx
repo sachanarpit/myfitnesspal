@@ -38,9 +38,9 @@ export function ProductDairy({ recipe, total, setTotal }) {
         <td className="table-secondary">
           {Number(dish.DietaryFiber).toFixed(1)}g
         </td>
-        <td>
+        {/* <td>
           <ItemDelete>❌</ItemDelete>
-        </td>
+        </td> */}
       </ItemRow>
     </>
   );
