@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import {
   Body2,
   Heading6,
@@ -14,6 +15,7 @@ import styles from "./Form7.module.css";
 export const Form7card = ({ next }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [status, setStatus] = useState();
   console.log(email);
 
   const handleSubmit = () => {
@@ -30,11 +32,15 @@ export const Form7card = ({ next }) => {
       },
     };
 
-    axios(options).then((response) => {
-      alert(response.status);
-    });
+    axios(options)
+      .then((response) => {
+        setStatus(response.status);
+      })
+      .catch(setStatus("lo"));
   };
-  return (
+  return status === 201 ? (
+    <Redirect to="/signup-9" />
+  ) : (
     <div className="fadeIn">
       <div className={styles.card7main}>
         <ProgressBar6></ProgressBar6>
@@ -50,6 +56,13 @@ export const Form7card = ({ next }) => {
             setText={setEmail}
           />
         </div>
+        {status === "lo" ? (
+          <div className={styles.body}>
+            <Body2>Please type correct email</Body2>
+          </div>
+        ) : (
+          <></>
+        )}
         <div className={styles.pass}>
           <WideInput
             placeholder={"Create a password"}
@@ -72,11 +85,11 @@ export const Form7card = ({ next }) => {
           </span>
         </div>
         <div className={styles.cont}>
-          <Link to={next}>
-            <SignUpContinueButton onClick={handleSubmit}>
-              CONTINUE
-            </SignUpContinueButton>
-          </Link>
+          {/* <Link to={next}> */}
+          <SignUpContinueButton onClick={handleSubmit}>
+            CONTINUE
+          </SignUpContinueButton>
+          {/* </Link> */}
         </div>
         <div className={styles.span2}>
           <span className={styles.span_main}>
