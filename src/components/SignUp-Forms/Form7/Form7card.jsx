@@ -11,7 +11,7 @@ import styles from "./Form7.module.css";
 
 export const Form7card = ({ next }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card7main}>
         <ProgressBar6></ProgressBar6>
 
@@ -87,6 +87,6 @@ export const Form7card = ({ next }) => {
           </FooterText>
         </div>
       </div>
-    </>
+    </div>
   );
 };

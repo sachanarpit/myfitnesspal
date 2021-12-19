@@ -11,7 +11,7 @@ import styles from "./Form8.module.css";
 
 export const Form8card = ({ prev, next }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card8main}>
         <ProgressBar7></ProgressBar7>
 
@@ -28,6 +28,6 @@ export const Form8card = ({ prev, next }) => {
           <SignUpNextButton className={styles.next}>Next</SignUpNextButton>
         </Link>
       </div>
-    </>
+    </div>
   );
 };
