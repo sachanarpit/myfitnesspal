@@ -7,13 +7,13 @@ import TestArpit from "./routes/Test.arpit";
 function App() {
   return (
     <div className="App">
-      {/* <Routes /> */}
-      <Test />
+      <Routes />
+      {/* <Test /> */}
 
       {/* <Test /> */}
 
       {/* <LoaderComp /> */}
-      <TestArpit />
+      {/* <TestArpit /> */}
     </div>
   );
 }
