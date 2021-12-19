@@ -43,6 +43,8 @@
   color: rgba(34, 38, 40, 1);
   font-family: "NeueSB";
   line-height: 2.788339670468948vh;
+  height: 20%;
+  width: 10%;
 }
 .poha {
   display: flex;
