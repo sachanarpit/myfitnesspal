@@ -50,7 +50,7 @@ input {
   height: 14%;
   margin-left: 2%;
   /* outline: black solid; */
-  overflow: scroll;
+  overflow: hidden;
   white-space: nowrap;
   margin: 9px;
 }
