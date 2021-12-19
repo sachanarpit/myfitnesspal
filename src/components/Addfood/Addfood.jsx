@@ -5,24 +5,8 @@ import { useState } from "react";
 import axios from "axios";
 import vector from "./Utils/Vector.svg";
 import NutritionFacts from "../Nutrition/NutritionFacts";
-// const options = {
-//   url: "http://localhost:2345/lists",
-//   method: "POST",
-//   headers: {
-//     Accept: "application/json",
-//     "Content-Type": "application/json",
-//   },
-//   data: {
-//     "userId":"abcd",
-//     "foodId",
-//   },
-// };
-
-// axios(options)
-//   .then((response) => {
-//     setStatus(response.status);
-//   })
-//   .catch(setStatus("lo"));
+import nutri from "./Utils/nutri.svg";
+import add from "./Utils/add.svg";
 
 const Im = () => {
   return (
@@ -64,14 +48,27 @@ const Extra = ({ name, id }) => {
       <h3>
         Homemade - <span>{name}</span>
       </h3>
-      <button onClick={open}>nutrition</button>
-      <button
+      <div className={styles.wid}>
+        <div
+          onClick={() => {
+            post(id);
+          }}
+          className={styles.nutri_i}
+        >
+          <img src={add} alt="" />
+        </div>
+        <div onClick={open} className={styles.nutri_i}>
+          <img src={nutri} alt="" />
+        </div>
+      </div>
+      {/* <div onClick={open}></div> */}
+      {/* <button
         onClick={() => {
           post(id);
         }}
       >
         Add
-      </button>
+      </button> */}
       {modal ? <Modal close={close} /> : null}
     </div>
   );
