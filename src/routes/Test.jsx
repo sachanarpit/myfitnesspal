@@ -60,6 +60,7 @@ import {
   WideInput,
 } from "../components/GlobalComp/Input.Pages.SignUp";
 import { Landingtool } from "../components/Home-Page/Toolpage";
+import { Dailypage } from "../components/Home-Page/Dailysummary";
 
 
 export const Test = () => {
@@ -67,7 +68,7 @@ export const Test = () => {
     <>
 
 
-      <SignUpForm4 /> 
+      <Dailypage /> 
 
 
       {/* <img src="/loading.gif" alt="" /> */}
