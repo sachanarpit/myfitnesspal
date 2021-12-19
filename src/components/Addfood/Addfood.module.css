@@ -74,11 +74,11 @@ input {
 }
 .info {
   position: absolute;
-  top: 28%;
+  top: 27%;
   left: 50.7638888889%;
   width: 31.0416666667%;
-  height: 209px;
-  /* outline: hotpink solid; */
+  height: 280px;
+  outline: hotpink solid;
   background-color: #f0f2f4;
   text-align: center;
 }

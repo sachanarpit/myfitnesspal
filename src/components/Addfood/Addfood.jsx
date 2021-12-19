@@ -5,6 +5,24 @@ import { useState } from "react";
 import axios from "axios";
 import vector from "./Utils/Vector.svg";
 import NutritionFacts from "../Nutrition/NutritionFacts";
+// const options = {
+//   url: "http://localhost:2345/lists",
+//   method: "POST",
+//   headers: {
+//     Accept: "application/json",
+//     "Content-Type": "application/json",
+//   },
+//   data: {
+//     "userId":"abcd",
+//     "foodId",
+//   },
+// };
+
+// axios(options)
+//   .then((response) => {
+//     setStatus(response.status);
+//   })
+//   .catch(setStatus("lo"));
 
 const Im = () => {
   return (
@@ -31,8 +49,15 @@ const Extra = ({ name, id }) => {
     setModal(false);
   };
   const post = (id) => {
-    // "Arpit post"
-    console.log(id);
+    axios
+      .post("http://localhost:2345/list", {
+        userId: "Fred",
+        foodId: `${id}`,
+        cat: "dinner",
+      })
+      .then(function (response) {
+        console.log(response);
+      });
   };
   return (
     <div className={styles.info}>
