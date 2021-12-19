@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 import Recepie from "./Recepie/Recepie";
+import { Toolpage } from "./Toolpage/Toolpage";
 
 
 function IndexHome({ next }) {
@@ -23,6 +24,7 @@ function IndexHome({ next }) {
       <Logobar />
       <NavbarWithoutLogin />
       <Hero next={next} />
+      <Toolpage />
       <Recepie />
       <Connect />
       <Footer />

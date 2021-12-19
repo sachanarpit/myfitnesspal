@@ -1,4 +1,7 @@
 
+.main{
+    margin-top: 14.54vh;
+}
 .card{
     display: flex;
     gap: 3.61vh;

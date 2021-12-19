@@ -73,12 +73,12 @@ export const Test = () => {
       <NutritionFacts />
       <Complete />
       <Recepie /> */}
-      <Upper />
+      {/* <Upper /> */}
       <IndexHome />
-      <NutritionFacts />
+      {/* <NutritionFacts />
       <Complete />
       <Recepie />
-      <Dailypage />
+      <Dailypage /> */}
 
       {/* <img src="/loading.gif" alt="" /> */}
 
