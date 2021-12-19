@@ -88,7 +88,7 @@ const Cont = ({ data, add, showe, type }) => {
     add();
   };
   return (
-    <div>
+    <div className="fadeIn">
       <div className={styles.matching}>Matching foods</div>
       <div className={styles.data}>
         {data.map((i) => (
