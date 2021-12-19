@@ -10,7 +10,7 @@ import styles from "./Form5.module.css";
 
 export const Form5card = ({ next, prev }) => {
   return (
-    <>
+    <div className="fadeIn">
       <div className={styles.card5main}>
         <ProgressBar4></ProgressBar4>
 
@@ -43,6 +43,6 @@ export const Form5card = ({ next, prev }) => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };

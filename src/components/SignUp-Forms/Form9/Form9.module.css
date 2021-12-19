@@ -2,10 +2,15 @@
   width: 35.77vw;
   height: 91.41vh;
   /* margin-left: calc(50% - 488px/2); */
+}
+.card9main {
+  width: 35.77vw;
+  height: 96.41vh;
+  /* margin-left: calc(50% - 488px/2); */
 
   /* margin-top: 0px; */
   /* Primary colours/Snow */
-  margin: 7.22vh auto auto auto;
+  margin: 7.22vh auto 22.89vh auto;
   background-color: #ffffff;
   box-shadow: -8px 0px 20px rgba(135, 135, 135, 0.25),
     8px 0px 20px rgba(135, 135, 135, 0.25);
