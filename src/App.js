@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
       {/* <Routes /> */}
-      <Test />
+
+      {/* <Test /> */}
+
       {/* <LoaderComp /> */}
-      {/* <TestArpit /> */}
+      <TestArpit />
     </div>
   );
 }
