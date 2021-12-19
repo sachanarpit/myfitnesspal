@@ -8,6 +8,7 @@ import {
 } from "./TableDairy";
 
 export function SectionDairy() {
+  
   return (
     <>
       <tbody>
