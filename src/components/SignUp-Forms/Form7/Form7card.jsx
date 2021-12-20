@@ -20,7 +20,7 @@ export const Form7card = ({ next }) => {
 
   const handleSubmit = () => {
     const options = {
-      url: "http://localhost:2345/users",
+      url: "https://salty-hamlet-78204.herokuapp.com/users",
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -40,7 +40,6 @@ export const Form7card = ({ next }) => {
   };
   return status === 201 ? (
     <Redirect to="/signup-8" />
-      
   ) : (
     <div className="fadeIn">
       <div className={styles.card7main}>

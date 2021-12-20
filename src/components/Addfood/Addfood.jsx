@@ -41,7 +41,7 @@ const Extra = ({ name, id, type }) => {
   };
   const post = (id) => {
     axios
-      .post("http://localhost:2345/list", {
+      .post("https://salty-hamlet-78204.herokuapp.com/list", {
         userId: "Fred",
         foodId: `${id}`,
         cat: type,
@@ -128,7 +128,9 @@ function Addfood() {
 
   const handleChange = (e) => {
     const data = axios
-      .get(`http://localhost:2345/food/search?q=${e.target.value}`)
+      .get(
+        `https://salty-hamlet-78204.herokuapp.com/food/search?q=${e.target.value}`
+      )
       .then(({ data }) => {
         setData(data);
       });

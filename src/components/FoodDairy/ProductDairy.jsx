@@ -6,7 +6,7 @@ export function ProductDairy({ recipe, total, setTotal }) {
   const [dish, setDish] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:2345/food/find?id=${recipe}`)
+      .get(`https://salty-hamlet-78204.herokuapp.com/food/find?id=${recipe}`)
       .then((res) => setDish(res.data.food))
       .then((x) =>
         setTotal({

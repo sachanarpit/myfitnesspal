@@ -15,7 +15,9 @@ export function SectionDairy({ type, total, setTotal }) {
   let key = "Fred";
   useEffect(() => {
     axios
-      .get(`http://localhost:2345/list/user?key=${key}&cat=${type}`)
+      .get(
+        `https://salty-hamlet-78204.herokuapp.com/list/user?key=${key}&cat=${type}`
+      )
       .then((res) => setData(res.data));
   }, []);
 
