@@ -1,7 +1,6 @@
 
 ![Logo](https://myfitnesspal.pages.dev/logo.svg)
 
-# MyFitnessPal
 Hello readers, my name is Arpit Sachan. I learn Full stack web Development at Masai School. During unit-5 construct week of Masai School, We created a fitness app with fresh UI/UX which is provided by UI/UX team. On the development side, we are three members of our team- [Arpit Sachan](https://github.com/sachanarpit) , [Ishan Singh Lamba](https://github.com/Ishansinghlamba) and [Sumit Kumar](https://github.com/sumitjs7979). We created this project in just a week.
 
 # Important Functionality
@@ -13,7 +12,7 @@ Hello readers, my name is Arpit Sachan. I learn Full stack web Development at Ma
 # How to get/reach the app
 
 - we hosted our web at [https://myfitnesspal.pages.dev/](https://myfitnesspal.pages.dev/) 
-- checkout our code at [https://github.com/sachanarpit/myfitnesspal](https://myfitnesspal.pages.dev/) 
+- checkout our backend code at [https://github.com/sachanarpit/myfitnesspal-backend](https://github.com/sachanarpit/myfitnesspal-backend) 
 
 # Technology we use
 
