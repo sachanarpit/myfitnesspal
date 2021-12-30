@@ -1,70 +1,128 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo](https://myfitnesspal.pages.dev/logo.svg)
 
-## Available Scripts
+# MyFitnessPal
+Hello readers, my name is Arpit Sachan. I learn Full stack web Development at Masai School. During unit-5 construct week of Masai School, We created a fitness app with fresh UI/UX which is provided by UI/UX team. On the development side, we are three members of our team- [Arpit Sachan](https://github.com/sachanarpit) , [Ishan Singh Lamba](https://github.com/Ishansinghlamba) and [Sumit Kumar](https://github.com/sumitjs7979). We created this project in just a week.
 
-In the project directory, you can run:
+# Important Functionality
 
-### `yarn start`
+-Food Search Engine to add in list. 
+- create the add food table to manage your calorie count.
+-  Download your calorie chart.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# How to get/reach the app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- we hosted our web at [https://myfitnesspal.pages.dev/](https://myfitnesspal.pages.dev/) 
+- checkout our code at [https://github.com/sachanarpit/myfitnesspal](https://myfitnesspal.pages.dev/) 
 
-### `yarn test`
+# Technology we use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Backend
+- Node Js
+- Express
+- MongoDB
 
-### `yarn build`
+## Frontend
+- React
+- CSS
+- Styled- components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/sachanarpit/myfitnesspal.git
+```
 
-### `yarn eject`
+Go to the project directory
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  cd myfitnesspal
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  yarn
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Start the server
 
-## Learn More
+```bash
+  yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Environment Variables
 
-### Code Splitting
+To run this project, you will need to add the following environment variables to your .env file
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgements
 
-### Analyzing the Bundle Size
+ - [myfitnesspal.com](https://www.myfitnesspal.com/)
+ - [Masai School](https://masaischool.com/)
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+-  [Arpit Sachan](https://github.com/sachanarpit/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Ishan Singh Lamba](https://github.com/Ishansinghlamba)
 
-### Advanced Configuration
+- [Sumit Kumar](https://github.com/sumitjs7979)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# ScreenShots
 
-### Deployment
+## HomePage without login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![screencapture-localhost-3000-2021-12-20-01_31_32.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944130063/dVy45kpLN.png)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Signup Pages
+![screencapture-localhost-3000-signup-1-2021-12-20-01_35_35.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944421431/14Eypv-zi.png)
+
+![screencapture-localhost-3000-signup-2-2021-12-20-01_37_04.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944437309/Mp2wj7bPP.png)
+
+![screencapture-localhost-3000-signup-3-2021-12-20-01_37_38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944478327/RGZ6R8gjr.png)
+
+![screencapture-localhost-3000-signup-4-2021-12-20-01_38_22.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944514188/3SHIuv-hE.png)
+
+![screencapture-localhost-3000-signup-5-2021-12-20-01_38_44.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944533836/sR1rq_PPr.png)
+
+
+![screencapture-localhost-3000-signup-6-2021-12-20-01_39_00.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944567241/iikKYKkOj.png)
+
+![screencapture-localhost-3000-signup-8-2021-12-20-01_39_38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944588146/Nv3McfkiBt.png)
+
+![screencapture-localhost-3000-signup-9-2021-12-20-01_39_55.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944605619/0h5vW_dUT.png)
+
+
+## HomePage with Login
+
+![screencapture-localhost-3000-user-home-2021-12-20-01_40_21.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944654574/aR7zUGEyC.png)
+
+## Add Recipe Page
+
+![screencapture-localhost-3000-add-food-2021-12-20-01_41_13.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944715701/HL-qYzuqK.png)
+
+## Search Page
+
+![screencapture-localhost-3000-search-2021-12-20-01_42_03.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944748921/bE7009QOM.png)
+
+![screencapture-localhost-3000-search-2021-12-20-01_42_36.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944766203/ubgyb9_40.png)
+
+![screencapture-localhost-3000-search-2021-12-20-01_42_52.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944785051/ZpNhYIh_R.png)
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944837299/kmXY8leA5.png)
+
+## Add recipe page after add recipe
+
+![screencapture-localhost-3000-add-food-2021-12-20-01_44_34.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944908499/olnCCu597.png)
+
+## Report Page
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639944958122/v1oK71FVG.png)
+
+
+
