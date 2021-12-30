@@ -5,7 +5,7 @@ Hello readers, my name is Arpit Sachan. I learn Full stack web Development at Ma
 
 # Important Functionality
 
--Food Search Engine to add in list. 
+- Food Search Engine to add in list. 
 - create the add food table to manage your calorie count.
 -  Download your calorie chart.
 
